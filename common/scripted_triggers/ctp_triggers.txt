@@ -1,0 +1,61 @@
+﻿is_ctp_loaded = {
+	always = yes
+}
+
+is_marquess = {
+	OR = {
+		vassal_contract_has_flag = has_march_contract
+		AND = {
+			NOT = {
+				highest_held_tier >= tier_duchy
+			}
+			exists = primary_spouse
+			primary_spouse = {
+				vassal_contract_has_flag = has_march_contract
+			}
+		}
+		AND = {
+			exists = dynasty_house
+			dynasty_house = {
+				any_in_list = {
+					variable = house_marquess
+					ROOT = THIS
+				}
+			}
+		}
+		any_in_global_list = {
+			variable = global_marquess
+			ROOT = THIS
+		}
+	}
+}
+
+is_palatine = {
+	OR = {
+		vassal_contract_has_flag = has_palatinate_contract
+		AND = {
+			NOT = {
+				highest_held_tier > tier_duchy
+			}
+			exists = primary_spouse
+			primary_spouse = {
+				vassal_contract_has_flag = has_palatinate_contract
+			}
+		}
+		AND = {
+			exists = dynasty_house
+			dynasty_house = {
+				any_in_list = {
+					variable = house_palatine
+					ROOT = THIS
+				}
+			}
+		}
+		any_in_global_list = {
+			variable = global_palatine
+			ROOT = THIS
+		}
+	}
+}
+
+is_valid_prince
