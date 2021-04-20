@@ -1,4 +1,4 @@
-CharacterTier = {
+﻿CharacterTier = {
     type = character
     text = {
         trigger = {

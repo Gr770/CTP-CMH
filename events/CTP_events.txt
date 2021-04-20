@@ -1,4 +1,4 @@
-namespace = ctpname
+﻿namespace = ctpname
 
 ctpname.001 = {
     type = character_event
