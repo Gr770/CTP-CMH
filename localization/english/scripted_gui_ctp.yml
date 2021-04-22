@@ -1,0 +1,2 @@
+﻿l_english:
+ scripted_gui_text_ctp_tier: "[Localize(Concatenate(Concatenate(Concatenate(Concatenate(CHARACTER.Custom('CharacterTier'),CHARACTER.Custom('CharacterGender')),CHARACTER.Custom('CharacterGov')),CHARACTER.Custom('CharacterCulture')),CHARACTER.Custom('CharacterReligion')))]"

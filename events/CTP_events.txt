@@ -11,7 +11,7 @@ ctpname.001 = {
                     vassal_contract_has_flag = has_palatinate_contract
                     AND = {
                         NOT = {
-                            highest_held_tier > tier_duchy
+                            highest_held_title_tier > tier_duchy
                         }
                         exists = primary_spouse
                         primary_spouse = {
@@ -38,7 +38,7 @@ ctpname.001 = {
                     vassal_contract_has_flag = has_march_contract
                     AND = {
                         NOT = {
-                            highest_held_tier >= tier_duchy
+                            highest_held_title_tier >= tier_duchy
                         }
                         exists = primary_spouse
                         primary_spouse = {

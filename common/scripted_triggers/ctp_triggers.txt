@@ -57,5 +57,3 @@ is_palatine = {
 		}
 	}
 }
-
-is_valid_prince

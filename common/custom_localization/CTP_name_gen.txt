@@ -2,7 +2,7 @@
     type = character
     text = {
         trigger = {
-            highest_held_tier = tier_empire
+            highest_held_title_tier = tier_empire
         }
         localization_key = emperor
     }
@@ -14,7 +14,7 @@
             }
             exists = primary_spouse
             primary_spouse = {
-                highest_held_tier = tier_empire
+                highest_held_title_tier = tier_empire
                 OR = {
                     has_government = feudal_government
                     has_government = clan_government
@@ -34,7 +34,7 @@
                 AND = {
                     exists = father
                     father = {
-                        highest_held_tier = tier_empire
+                        highest_held_title_tier = tier_empire
                         OR = {
                             has_government = feudal_government
                             has_government = clan_government
@@ -45,7 +45,7 @@
                 AND = {
                     exists = mother
                     mother = {
-                        highest_held_tier = tier_empire
+                        highest_held_title_tier = tier_empire
                         OR = {
                             has_government = feudal_government
                             has_government = clan_government
@@ -59,7 +59,7 @@
     }
     text = {
         trigger = {
-            highest_held_tier = tier_kingdom
+            highest_held_title_tier = tier_kingdom
         }
         localization_key = king
     }
@@ -71,7 +71,7 @@
             }
             exists = primary_spouse
             primary_spouse = {
-                highest_held_tier = tier_kingdom
+                highest_held_title_tier = tier_kingdom
                 OR = {
                     has_government = feudal_government
                     has_government = clan_government
@@ -91,7 +91,7 @@
                 AND = {
                     exists = father
                     father = {
-                        highest_held_tier = tier_kingdom
+                        highest_held_title_tier = tier_kingdom
                         OR = {
                             has_government = feudal_government
                             has_government = clan_government
@@ -102,7 +102,7 @@
                 AND = {
                     exists = mother
                     mother = {
-                        highest_held_tier = tier_kingdom
+                        highest_held_title_tier = tier_kingdom
                         OR = {
                             has_government = feudal_government
                             has_government = clan_government
@@ -116,7 +116,7 @@
     }
     text = {
         trigger = {
-            highest_held_tier = tier_duchy
+            highest_held_title_tier = tier_duchy
         }
         localization_key = duke
     }
@@ -128,7 +128,7 @@
             }
             exists = primary_spouse
             primary_spouse = {
-                highest_held_tier = tier_duchy
+                highest_held_title_tier = tier_duchy
                 OR = {
                     has_government = feudal_government
                     has_government = clan_government
@@ -148,7 +148,7 @@
                 AND = {
                     exists = father
                     father = {
-                        highest_held_tier = tier_duchy
+                        highest_held_title_tier = tier_duchy
                         OR = {
                             has_government = feudal_government
                             has_government = clan_government
@@ -159,7 +159,7 @@
                 AND = {
                     exists = mother
                     mother = {
-                        highest_held_tier = tier_duchy
+                        highest_held_title_tier = tier_duchy
                         OR = {
                             has_government = feudal_government
                             has_government = clan_government
@@ -173,7 +173,7 @@
     }
     text = {
         trigger = {
-            highest_held_tier = tier_county
+            highest_held_title_tier = tier_county
         }
         localization_key = count
     }
@@ -185,7 +185,7 @@
             }
             exists = primary_spouse
             primary_spouse = {
-                highest_held_tier = tier_county
+                highest_held_title_tier = tier_county
                 OR = {
                     has_government = feudal_government
                     has_government = clan_government
@@ -205,7 +205,7 @@
                 AND = {
                     exists = father
                     father = {
-                        highest_held_tier = tier_county
+                        highest_held_title_tier = tier_county
                         OR = {
                             has_government = feudal_government
                             has_government = clan_government
@@ -216,7 +216,7 @@
                 AND = {
                     exists = mother
                     mother = {
-                        highest_held_tier = tier_county
+                        highest_held_title_tier = tier_county
                         OR = {
                             has_government = feudal_government
                             has_government = clan_government
@@ -230,7 +230,7 @@
     }
     text = {
         trigger = {
-            highest_held_tier = tier_barony
+            highest_held_title_tier = tier_barony
         }
         localization_key = baron
     }
@@ -242,7 +242,7 @@
             }
             exists = primary_spouse
             primary_spouse = {
-                highest_held_tier = tier_barony
+                highest_held_title_tier = tier_barony
                 OR = {
                     has_government = feudal_government
                     has_government = clan_government
@@ -356,32 +356,6 @@ CharacterGov = {
     text = {
         trigger = {
             OR = {
-                has_government = clan_government
-                AND = {
-                    exists = primary_spouse
-                    primary_spouse = {
-                        has_government = clan_government
-                    }
-                }
-                AND = {
-                    exists = father
-                    father = {
-                        has_government = clan_government
-                    }
-                }
-                AND = {
-                    exists = mother
-                    mother = {
-                        has_government = clan_government
-                    }
-                }
-            }
-            localization_key = _clan
-        }
-    }
-    text = {
-        trigger = {
-            OR = {
                 has_government = tribal_government
                 AND = {
                     exists = primary_spouse
@@ -417,6 +391,26 @@ CharacterGov = {
         }
         localization_key = _mercanary
     }
+    text = {
+        fallback = yes
+        localization_key = _default
+    }
+}
+CharacterCulture = {
+    type = character
+    text = {
+        trigger = {
+            has_culture = culture:anglo_saxon
+        }
+        localization_key = _anglo_saxon
+    }
+    text = {
+        fallback = yes
+        localization_key = _default
+    }
+}
+CharacterReligion = {
+    type = character
     text = {
         fallback = yes
         localization_key = _default
