@@ -1,4 +1,4 @@
-﻿is_ctp_loaded = {
+﻿ctp_is_loaded = {
 	always = yes
 }
 
