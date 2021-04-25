@@ -1,0 +1,38 @@
+﻿l_english:
+
+#Full Name
+
+ CTP_Full_Name_Arabic: "[Localize(Concatenate(Concatenate(Concatenate(Concatenate(ROOT.Char.Custom('CharacterTier'),ROOT.Char.Custom('CharacterGender')),ROOT.Char.Custom('CharacterGov')),ROOT.Char.Custom('CharacterCulture')),ROOT.Char.Custom('CharacterReligion')))][GetScriptedGui('scripted_gui_ctp_laqab').ExecuteTooltip(GuiScope.SetRoot(ROOT.Char.MakeScope).End)][GetScriptedGui('scripted_gui_ctp_tek').ExecuteTooltip(GuiScope.SetRoot(ROOT.Char.MakeScope).End)][Localize(Concatenate(ROOT.Char.GetFirstNameNoTooltip,ROOT.Char.Custom('CharacterCulture')))] [ROOT.Char.Custom('CharacterPat')][ROOT.Char.Custom('NickCheck')]"
+
+ CTP_Full_Name_Default: "[ROOT.Char.GetUINameNotMeNoTooltip]"
+
+#Patronym
+
+ CTP_Patronym: "[Localize(Concatenate(Concatenate(Concatenate(ROOT.Char.GetFather.GetFirstNameNoTooltip,ROOT.Char.Custom('NameCulture')),'_pat_dad'),ROOT.Char.Custom('CharacterGender')))] "
+
+#Nickname
+
+ CTP_NickName: "'[ROOT.Char.GetNickname]' "
+ Gui_blank: ""
+
+#Tek
+ scripted_gui_ctp_kunya_male: "[Localize(Concatenate(Concatenate(TARGET_CHARACTER.GetFirstNameNoTooltip,CHARACTER.Custom('CharacterCulture')),'_tek_dad'))] "
+ scripted_gui_ctp_kunya_female: "[Localize(Concatenate(Concatenate(TARGET_CHARACTER.GetFirstNameNoTooltip,CHARACTER.Custom('CharacterCulture')),'_tek_mom'))] "
+ ctp_no_child_kunya: "[Localize(Concatenate(Concatenate(CHARACTER.GetFirstNameNoTooltip,CHARACTER.Custom('CharacterCulture')),'_no_child_tek'))]"
+ ctp_blank_kunya: ""
+
+#Arab Laqabs
+
+ scripted_gui_laqab_obey_god_command: "at-Ṭāʾiʿ li-Amr biʾllāh "
+ scripted_gui_laqab_supporter_religion: "an-Nāṣir Lideenʾllāh "
+ scripted_gui_laqab_seeker_victory_god: "al-Mustanṣir bi-llāh "
+ scripted_gui_laqab_truth_summoner: "ad-Daʿī ilaʾl-ḥaqq "
+ scripted_gui_laqab_muayyad: "al-Muʾayyad bi-ʾllāh "
+ scripted_gui_laqab_vault_dynasty: "Samāʾ ad-Dawla "
+ scripted_gui_laqab_light_dynasty: "Nūr ad-Dawla "
+ scripted_gui_laqab_mutamid_dynasty: "Muʿtamid ad-Dawla "
+ scripted_gui_laqab_zaim_dynasty: "Zaʿim ad-Dawla "
+ scripted_gui_laqab_knowledge_faith: "ʿAlīm ad-Dīn"
+ scripted_gui_laqab_adornment_worshipers: "Zayn al-Abidin"
+ scripted_gui_laqab_prophet_seal: "Khātam an-Nabīyīn "
+ scripted_gui_laqab_possessor_lights: "Ḏū an-Nūrayn "

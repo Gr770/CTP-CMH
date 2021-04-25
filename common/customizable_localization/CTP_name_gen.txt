@@ -1,10 +1,26 @@
-﻿CharacterTier = {
+﻿CTPFullName = {
+	type = character
+	text = {
+		trigger = {
+			has_culture_group = culture_group:arabic_group
+			NOT = {
+				has_culture = culture:maghrebi
+			}
+		}
+		localization_key = CTP_Full_Name_Arabic
+	}
+	text = {
+		fallback = yes
+		localization_key = CTP_Full_Name_Default
+	}
+}
+CharacterTier = {
     type = character
     text = {
         trigger = {
             highest_held_title_tier = tier_empire
         }
-        localization_key = emperor
+        localization_key = Emperor
     }
     text = {
         trigger = {
@@ -22,7 +38,7 @@
                 }
             }
         }
-        localization_key = emperor_consort
+        localization_key = Emperor_consort
     }
     text = {
         trigger = {
@@ -55,13 +71,13 @@
                 }
             }
         }
-        localization_key = emperor_prince
+        localization_key = Emperor_prince
     }
     text = {
         trigger = {
             highest_held_title_tier = tier_kingdom
         }
-        localization_key = king
+        localization_key = King
     }
     text = {
         trigger = {
@@ -79,7 +95,7 @@
                 }
             }
         }
-        localization_key = king_consort
+        localization_key = King_consort
     }
     text = {
         trigger = {
@@ -112,13 +128,13 @@
                 }
             }
         }
-        localization_key = king_prince
+        localization_key = King_prince
     }
     text = {
         trigger = {
             highest_held_title_tier = tier_duchy
         }
-        localization_key = duke
+        localization_key = Duke
     }
     text = {
         trigger = {
@@ -136,7 +152,7 @@
                 }
             }
         }
-        localization_key = duke_consort
+        localization_key = Duke_consort
     }
     text = {
         trigger = {
@@ -169,13 +185,13 @@
                 }
             }
         }
-        localization_key = duke_prince
+        localization_key = Duke_prince
     }
     text = {
         trigger = {
             highest_held_title_tier = tier_county
         }
-        localization_key = count
+        localization_key = Count
     }
     text = {
         trigger = {
@@ -193,7 +209,7 @@
                 }
             }
         }
-        localization_key = count_consort
+        localization_key = Count_consort
     }
     text = {
         trigger = {
@@ -226,13 +242,13 @@
                 }
             }
         }
-        localization_key = count_prince
+        localization_key = Count_prince
     }
     text = {
         trigger = {
             highest_held_title_tier = tier_barony
         }
-        localization_key = baron
+        localization_key = Baron
     }
     text = {
         trigger = {
@@ -250,7 +266,7 @@
                 }
             }
         }
-        localization_key = baron_consort
+        localization_key = Baron_consort
     }
     text = {
         trigger = {
@@ -264,6 +280,7 @@
     }
 }
 CharacterGender = {
+    type = character
     text = {
         trigger = {
             is_male = no
@@ -291,18 +308,6 @@ CharacterGov = {
     }
     text = {
         trigger = {
-            is_marquess = yes
-        }
-        localization_key = _marquess
-    }
-    text = {
-        trigger = {
-            is_palatine = yes
-        }
-        localization_key = _palatine
-    }
-    text = {
-        trigger = {
             OR = {
                 has_government = feudal_government
                 AND = {
@@ -324,8 +329,8 @@ CharacterGov = {
                     }
                 }
             }
-            localization_key = _feudal
         }
+        localization_key = _feudal
     }
     text = {
         trigger = {
@@ -350,8 +355,8 @@ CharacterGov = {
                     }
                 }
             }
-            localization_key = _clan
         }
+        localization_key = _clan
     }
     text = {
         trigger = {
@@ -376,8 +381,8 @@ CharacterGov = {
                     }
                 }
             }
-            localization_key = _tribal
         }
+        localization_key = _tribal
     }
     text = {
         trigger = {
@@ -399,15 +404,24 @@ CharacterGov = {
 CharacterCulture = {
     type = character
     text = {
-        trigger = {
-            has_culture = culture:anglo_saxon
-        }
-        localization_key = _anglo_saxon
-    }
-    text = {
-        fallback = yes
-        localization_key = _default
-    }
+		trigger = {
+			has_culture = culture:andalusian
+		}
+		localization_key = _andalusian
+	}
+	text = {
+		trigger = {
+			has_culture_group = culture_group:arabic_group
+			NOT = {
+				has_culture = culture:maghrebi
+			}
+		}
+		localization_key = _arabic
+	}
+	text = {
+		fallback = yes
+		localization_key = _default
+	}
 }
 CharacterReligion = {
     type = character
@@ -415,4 +429,30 @@ CharacterReligion = {
         fallback = yes
         localization_key = _default
     }
+}
+CharacterPat = {
+	type = character
+	text = {
+		trigger = {
+			exists = father
+		}
+		localization_key = CTP_Patronym
+	}
+	text = {
+		fallback = yes
+		localization_key = Gui_blank
+	}
+}
+NickCheck = {
+	type = character
+	text = {
+		trigger = {
+			has_any_nickname = yes
+		}
+		localization_key = CTP_NickName
+	}
+	text = {
+		fallback = yes
+		localization_key = Gui_blank
+	}
 }
