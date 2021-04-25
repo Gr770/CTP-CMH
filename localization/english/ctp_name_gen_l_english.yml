@@ -8,7 +8,7 @@
 
 #Patronym
 
- CTP_Patronym: "[Localize(Concatenate(Concatenate(Concatenate(ROOT.Char.GetFather.GetFirstNameNoTooltip,ROOT.Char.Custom('NameCulture')),'_pat_dad'),ROOT.Char.Custom('CharacterGender')))] "
+ CTP_Patronym: "[Localize(Concatenate(Concatenate(Concatenate(ROOT.Char.GetFather.GetFirstNameNoTooltip,ROOT.Char.Custom('CharacterCulture')),'_pat_dad'),ROOT.Char.Custom('CharacterGender')))] "
 
 #Nickname
 
