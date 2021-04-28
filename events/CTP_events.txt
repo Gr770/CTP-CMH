@@ -245,3 +245,23 @@ ctpname.992 = {
 		}
 	}
 }
+ctpname.991 = { #Tamil Name Change
+	type = character_event
+	hidden = yes
+	trigger = {
+		has_culture = culture:tamil
+	}
+	immediate = {
+		add_character_flag = has_regnal_name
+		random_list = {
+			50 = {
+				change_first_name = pandya_tamil
+			}
+			50 = {
+				change_first_name = chola_tamil
+			}
+		}
+	}
+}
+
+	

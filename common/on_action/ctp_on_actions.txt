@@ -1,4 +1,4 @@
-on_birth_child = {
+﻿on_birth_child = {
 	events = {
 		ctpname.999
 		ctpname.998
@@ -13,5 +13,26 @@ on_death = {
 		ctpname.993
 		ctpname.992
         ctpname.001
+	}
+}
+on_title_gain = {
+		on_actions = {ctp_regnal_name_change}
+}
+
+ctp_regnal_name_change = {
+	trigger = {
+		is_male = yes
+		highest_held_title_tier > tier_county
+		NOT = {
+			has_character_flag = has_regnal_name
+		}
+	}
+	first_valid = {
+		ctpname.991
+		
+	}
+	effect = {
+		change_first_name = pandya_tamil
+		add_character_flag = has_regnal_name
 	}
 }
