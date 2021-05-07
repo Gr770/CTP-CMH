@@ -1,7 +1,0 @@
-﻿tamil_regnal_names = {
-	type = character
-	text = {
-		fallback = yes
-		localization_key = pandya_tamil
-	}
-}

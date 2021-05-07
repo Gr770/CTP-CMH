@@ -1,4 +1,0 @@
-﻿is_ctp_loaded = { 
-    trigger_if = { ctp_is_loaded = yes }
-    trigger_else = { always = no }
-}

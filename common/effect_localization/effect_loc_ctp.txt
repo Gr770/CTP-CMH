@@ -1,5 +1,0 @@
-﻿scripted_gui_trigger_ctp_tier = {
-    first = scripted_gui_text_ctp_tier
-	third = scripted_gui_text_ctp_tier
-	global = scripted_gui_text_ctp_tier
-}
