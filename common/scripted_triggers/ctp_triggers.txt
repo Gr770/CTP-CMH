@@ -4,11 +4,22 @@
 
 is_marquess = {
 	OR = {
-		vassal_contract_has_flag = has_march_contract
 		AND = {
+			vassal_contract_has_flag = has_march_contract
 			NOT = {
-				highest_held_tier >= tier_duchy
+				exists = primary_spouse
 			}
+		}
+		AND = {
+			vassal_contract_has_flag = has_march_contract
+			exists = primary_spouse
+			primary_spouse = {
+				highest_held_tier < tier_duchy
+
+			}
+		}
+		AND = {
+			highest_held_tier < tier_duchy
 			exists = primary_spouse
 			primary_spouse = {
 				vassal_contract_has_flag = has_march_contract
@@ -32,7 +43,19 @@ is_marquess = {
 
 is_palatine = {
 	OR = {
-		vassal_contract_has_flag = has_palatinate_contract
+		AND = {
+			vassal_contract_has_flag = has_palatinate_contract
+			NOT = {
+				exists = primary_spouse
+			}
+		}
+		AND = {
+			vassal_contract_has_flag = has_palatinate_contract
+			exists = primary_spouse
+			primary_spouse = {
+				highest_held_tier < tier_kingdom
+			}
+		}
 		AND = {
 			NOT = {
 				highest_held_tier > tier_duchy
