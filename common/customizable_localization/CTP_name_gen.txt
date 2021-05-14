@@ -14,6 +14,310 @@
 		localization_key = CTP_Full_Name_Default
 	}
 }
+CTPName = {
+    type = character
+    text = {
+        trigger ={
+            is_local_player = yes
+        }
+        localization_key = CTP_Me
+    }
+    text = {
+		trigger = {
+			has_culture_group = culture_group:arabic_group
+			NOT = {
+				has_culture = culture:maghrebi
+			}
+		}
+		localization_key = CTP_Name_Arabic
+	}
+	text = {
+		fallback = yes
+		localization_key = CTP_Name_Default
+	}
+}
+CTPShortName = {
+    type = character
+    text = {
+        trigger ={
+            is_local_player = yes
+        }
+        localization_key = CTP_Me
+    }
+    text = {
+		trigger = {
+			has_culture_group = culture_group:arabic_group
+			NOT = {
+				has_culture = culture:maghrebi
+			}
+		}
+		localization_key = CTP_Short_Name_Arabic
+	}
+	text = {
+		fallback = yes
+		localization_key = CTP_Short_Name_Default
+	}
+}
+CTPNameNoTooltip = {
+    type = character
+    text = {
+        trigger ={
+            is_local_player = yes
+        }
+        localization_key = CTP_Me_no_tooltip
+    }
+    text = {
+		trigger = {
+			has_culture_group = culture_group:arabic_group
+			NOT = {
+				has_culture = culture:maghrebi
+			}
+		}
+		localization_key = CTP_Name_Arabic_no_tooltip
+	}
+	text = {
+		fallback = yes
+		localization_key = CTP_Name_Default_no_tooltip
+	}
+}
+CTPShortNameNoTooltip = {
+    type = character
+    text = {
+        trigger ={
+            is_local_player = yes
+        }
+        localization_key = CTP_Me_no_tooltip
+    }
+    text = {
+		trigger = {
+			has_culture_group = culture_group:arabic_group
+			NOT = {
+				has_culture = culture:maghrebi
+			}
+		}
+		localization_key = CTP_Short_Name_Arabic_no_tooltip
+	}
+	text = {
+		fallback = yes
+		localization_key = CTP_Short_Name_Default_no_tooltip
+	}
+}
+CTPNameNotMe = {
+    type = character
+    text = {
+		trigger = {
+			has_culture_group = culture_group:arabic_group
+			NOT = {
+				has_culture = culture:maghrebi
+			}
+		}
+		localization_key = CTP_Name_Arabic
+	}
+	text = {
+		fallback = yes
+		localization_key = CTP_Name_Default_not_me
+	}
+}
+CTPShortNameNotMe = {
+    type = character
+    text = {
+		trigger = {
+			has_culture_group = culture_group:arabic_group
+			NOT = {
+				has_culture = culture:maghrebi
+			}
+		}
+		localization_key = CTP_Short_Name_Arabic
+	}
+	text = {
+		fallback = yes
+		localization_key = CTP_Short_Name_Default_not_me
+	}
+}
+CTPNameNotMeNoTooltip = {
+    type = character
+    text = {
+		trigger = {
+			has_culture_group = culture_group:arabic_group
+			NOT = {
+				has_culture = culture:maghrebi
+			}
+		}
+		localization_key = CTP_Name_Arabic_no_tooltip
+	}
+	text = {
+		fallback = yes
+		localization_key = CTP_Name_Default_no_tooltip_not_me
+	}
+}
+CTPShortNameNotMeNoTooltip = {
+    type = character
+    text = {
+		trigger = {
+			has_culture_group = culture_group:arabic_group
+			NOT = {
+				has_culture = culture:maghrebi
+			}
+		}
+		localization_key = CTP_Short_Name_Arabic_no_tooltip
+	}
+	text = {
+		fallback = yes
+		localization_key = CTP_Short_Name_Default_no_tooltip_not_me
+	}
+}
+CTPNamePossessive = {
+    type = character
+    text = {
+        trigger ={
+            is_local_player = yes
+        }
+        localization_key = CTP_My
+    }
+    text = {
+		trigger = {
+			has_culture_group = culture_group:arabic_group
+			NOT = {
+				has_culture = culture:maghrebi
+			}
+		}
+		localization_key = CTP_Name_Arabic_possessive
+	}
+	text = {
+		fallback = yes
+		localization_key = CTP_Name_Default_possessive
+	}
+}
+CTPShortNamePossessive = {
+    type = character
+    text = {
+        trigger ={
+            is_local_player = yes
+        }
+        localization_key = CTP_My
+    }
+    text = {
+		trigger = {
+			has_culture_group = culture_group:arabic_group
+			NOT = {
+				has_culture = culture:maghrebi
+			}
+		}
+		localization_key = CTP_Short_Name_Arabic_possessive
+	}
+	text = {
+		fallback = yes
+		localization_key = CTP_Short_Name_Default_possesive
+	}
+}
+CTPNamePossessiveNoTooltip = {
+    type = character
+    text = {
+        trigger ={
+            is_local_player = yes
+        }
+        localization_key = CTP_My_no_tooltip
+    }
+    text = {
+		trigger = {
+			has_culture_group = culture_group:arabic_group
+			NOT = {
+				has_culture = culture:maghrebi
+			}
+		}
+		localization_key = CTP_Name_Arabic_no_tooltip_possessive
+	}
+	text = {
+		fallback = yes
+		localization_key = CTP_Name_Default_no_tooltip_possessive
+	}
+}
+CTPShortNamePossessiveNoTooltip = {
+    type = character
+    text = {
+        trigger ={
+            is_local_player = yes
+        }
+        localization_key = CTP_My_no_tooltip
+    }
+    text = {
+		trigger = {
+			has_culture_group = culture_group:arabic_group
+			NOT = {
+				has_culture = culture:maghrebi
+			}
+		}
+		localization_key = CTP_Short_Name_Arabic_no_tooltip_possessive
+	}
+	text = {
+		fallback = yes
+		localization_key = CTP_Short_Name_Default_no_tooltip_possesive
+	}
+}
+CTPNamePossessiveNotMy = {
+    type = character
+    text = {
+		trigger = {
+			has_culture_group = culture_group:arabic_group
+			NOT = {
+				has_culture = culture:maghrebi
+			}
+		}
+		localization_key = CTP_Name_Arabic_possessive
+	}
+	text = {
+		fallback = yes
+		localization_key = CTP_Name_Default_possessive_not_my
+	}
+}
+CTPShortNamePossessiveNotMy = {
+    type = character
+    text = {
+		trigger = {
+			has_culture_group = culture_group:arabic_group
+			NOT = {
+				has_culture = culture:maghrebi
+			}
+		}
+		localization_key = CTP_Short_Name_Arabic_possessive
+	}
+	text = {
+		fallback = yes
+		localization_key = CTP_Short_Name_Default_possesive_not_my
+	}
+}
+CTPNamePossessiveNoTooltipNotMy = {
+    type = character
+    text = {
+		trigger = {
+			has_culture_group = culture_group:arabic_group
+			NOT = {
+				has_culture = culture:maghrebi
+			}
+		}
+		localization_key = CTP_Name_Arabic_no_tooltip_possessive
+	}
+	text = {
+		fallback = yes
+		localization_key = CTP_Name_Default_no_tooltip_possessive_not_my
+	}
+}
+CTPShortNamePossessiveNoTooltipNotMy = {
+    type = character
+    text = {
+		trigger = {
+			has_culture_group = culture_group:arabic_group
+			NOT = {
+				has_culture = culture:maghrebi
+			}
+		}
+		localization_key = CTP_Short_Name_Arabic_no_tooltip_possessive
+	}
+	text = {
+		fallback = yes
+		localization_key = CTP_Short_Name_Default_no_tooltip_possesive_not_my
+	}
+}
 CharacterTier = {
     type = character
     text = {

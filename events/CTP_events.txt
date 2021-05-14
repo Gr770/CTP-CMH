@@ -25,11 +25,11 @@ ctpname.001 = {
                     exists = dynasty_house
                 }
                 dynasty_house = {
-                    add_to_variable_list = { name = house_palatine target = ctp_holder }
+                    add_to_variable_list = { name = house_palatine target = scope:ctp_holder }
                 }
             }
             else = {
-                add_to_global_variable_list = { name = global_palatine target = ctp_holder }
+                add_to_global_variable_list = { name = global_palatine target = scope:ctp_holder }
             }
         }
         else_if = {
@@ -52,11 +52,11 @@ ctpname.001 = {
                     exists = dynasty_house
                 }
                 dynasty_house = {
-                    add_to_variable_list = { name = house_marquess target = ctp_holder }
+                    add_to_variable_list = { name = house_marquess target = scope:ctp_holder }
                 }
             }
             else = {
-                add_to_global_variable_list = { name = global_marquess target = ctp_holder }
+                add_to_global_variable_list = { name = global_marquess target = scope:ctp_holder }
             }
         }
     }
@@ -242,24 +242,6 @@ ctpname.992 = {
 		}
 		else = {
 			add_to_global_variable_list = { name = global_list_ctp_daughters target = scope:ctp_eldest_daughter }
-		}
-	}
-}
-ctpname.991 = { #Tamil Name Change
-	type = character_event
-	hidden = yes
-	trigger = {
-		has_culture = culture:tamil
-	}
-	immediate = {
-		add_character_flag = has_regnal_name
-		random_list = {
-			50 = {
-				change_first_name = pandya_tamil
-			}
-			50 = {
-				change_first_name = chola_tamil
-			}
 		}
 	}
 }
