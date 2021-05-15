@@ -61,6 +61,24 @@ ctpname.001 = {
         }
     }
 }
+ctpname.002 = {
+	type = none
+	hidden = yes
+	trigger = {
+		always = yes
+	}
+    immediate = {
+		add_to_global_variable_list  = { name = laqab_elder_missionary target = character:45108 }
+		add_to_global_variable_list  = { name = laqab_younger_missionary target = character:163166 }
+		character:45108 = {
+			add_character_flag = laqab_assigned
+			remove_nickname = yes
+		}
+		character:163166 = {
+			add_character_flag = laqab_assigned
+		}
+	}
+}
 ctpname.999 = {
 	type = character_event
 	hidden = yes

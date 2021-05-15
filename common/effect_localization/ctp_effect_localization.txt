@@ -33,10 +33,15 @@ scripted_gui_trigger_laqab_seeker_victory_god = {
 	third = scripted_gui_laqab_seeker_victory_god
 	global = scripted_gui_laqab_seeker_victory_god
 }
-scripted_gui_trigger_laqab_truth_summoner = {
-	first = scripted_gui_laqab_truth_summoner
-	third = scripted_gui_laqab_truth_summoner
-	global = scripted_gui_laqab_truth_summoner
+scripted_gui_trigger_laqab_elder_missionary = {
+	first = scripted_gui_laqab_elder_missionary
+	third = scripted_gui_laqab_elder_missionary
+	global = scripted_gui_laqab_elder_missionary
+}
+scripted_gui_trigger_laqab_younger_missionary = {
+	first = scripted_gui_laqab_younger_missionary
+	third = scripted_gui_laqab_younger_missionary
+	global = scripted_gui_laqab_younger_missionary
 }
 scripted_gui_trigger_laqab_muayyad = {
 	first = scripted_gui_laqab_muayyad
