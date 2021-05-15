@@ -6,9 +6,9 @@
 
  CTP_Full_Name_Default: "[ROOT.Char.GetUINameNotMeNoTooltip]"
 
- CTP_Me: "#ONCLICK:CHARACTER,[ROOT.Char.GetID] #L Me#!#!#!"
+ CTP_Me: "#ONCLICK:CHARACTER,[ROOT.Char.GetID] #TOOLTIP:CHARACTER,[ROOT.Char.GetID] #L Me#!#!#!"
  CTP_Me_no_tooltip: "Me"
- CTP_My: "#ONCLICK:CHARACTER,[ROOT.Char.GetID] #L My#!#!#!"
+ CTP_My: "#ONCLICK:CHARACTER,[ROOT.Char.GetID] #TOOLTIP:CHARACTER,[ROOT.Char.GetID] #L My#!#!#!"
  CTP_My_no_tooltip: "My"
 
  CTP_Name_Arabic: "#ONCLICK:CHARACTER,[ROOT.Char.GetID] #TOOLTIP:CHARACTER,[ROOT.Char.GetID] #L [Localize(Concatenate(Concatenate(Concatenate(Concatenate(ROOT.Char.Custom('CharacterTier'),ROOT.Char.Custom('CharacterGender')),ROOT.Char.Custom('CharacterGov')),ROOT.Char.Custom('CharacterCulture')),ROOT.Char.Custom('CharacterReligion')))][GetScriptedGui('scripted_gui_ctp_laqab_tek_name_check').ExecuteTooltip(GuiScope.SetRoot(ROOT.Char.MakeScope).End)][ROOT.Char.Custom('NickCheck')]#!#!#!"
