@@ -48,13 +48,13 @@
  Gui_blank: ""
 
 #Tek
- scripted_gui_ctp_kunya_male: "[Localize(Concatenate(Concatenate(TARGET_CHARACTER.GetFirstNameNoTooltip,CHARACTER.Custom('CharacterCulture')),'_tek_dad'))] "
- scripted_gui_ctp_kunya_female: "[Localize(Concatenate(Concatenate(TARGET_CHARACTER.GetFirstNameNoTooltip,CHARACTER.Custom('CharacterCulture')),'_tek_mom'))] "
+ scripted_gui_ctp_kunya_male: "[Localize(Concatenate(Concatenate(TARGET_CHARACTER.GetFirstName,CHARACTER.Custom('CharacterCulture')),'_tek_dad'))] "
+ scripted_gui_ctp_kunya_female: "[Localize(Concatenate(Concatenate(TARGET_CHARACTER.GetFirstName,CHARACTER.Custom('CharacterCulture')),'_tek_mom'))] "
  ctp_no_child_kunya: "[Localize(Concatenate(Concatenate(CHARACTER.GetFirstNameNoTooltip,CHARACTER.Custom('CharacterCulture')),'_no_child_tek'))]"
  ctp_blank_kunya: ""
 
 #Get Name
- scripted_gui_get_name: "[Localize(Concatenate(CHARACTER.GetFirstNameNoTooltip,CHARACTER.Custom('CharacterCulture')))]"
+ scripted_gui_get_name: "[Localize(Concatenate(CHARACTER.GetFirstName,CHARACTER.Custom('CharacterCulture')))]"
 
 #Arab Laqabs
 
