@@ -6,12 +6,14 @@
 
  CTP_Full_Name_Default: "[ROOT.Char.GetUINameNotMeNoTooltip]"
 
- CTP_Me: "#L Me#!"
+ CTP_Me: "#ONCLICK:CHARACTER,[ROOT.Char.GetID] #L Me#!#!#!"
  CTP_Me_no_tooltip: "Me"
+ CTP_My: "#ONCLICK:CHARACTER,[ROOT.Char.GetID] #L My#!#!#!"
+ CTP_My_no_tooltip: "My"
 
- CTP_Name_Arabic: "#L [Localize(Concatenate(Concatenate(Concatenate(Concatenate(ROOT.Char.Custom('CharacterTier'),ROOT.Char.Custom('CharacterGender')),ROOT.Char.Custom('CharacterGov')),ROOT.Char.Custom('CharacterCulture')),ROOT.Char.Custom('CharacterReligion')))][GetScriptedGui('scripted_gui_ctp_laqab_tek_name_check').ExecuteTooltip(GuiScope.SetRoot(ROOT.Char.MakeScope).End)][ROOT.Char.Custom('NickCheck')]#!"
+ CTP_Name_Arabic: "#ONCLICK:CHARACTER,[ROOT.Char.GetID] #TOOLTIP:CHARACTER,[ROOT.Char.GetID] #L [Localize(Concatenate(Concatenate(Concatenate(Concatenate(ROOT.Char.Custom('CharacterTier'),ROOT.Char.Custom('CharacterGender')),ROOT.Char.Custom('CharacterGov')),ROOT.Char.Custom('CharacterCulture')),ROOT.Char.Custom('CharacterReligion')))][GetScriptedGui('scripted_gui_ctp_laqab_tek_name_check').ExecuteTooltip(GuiScope.SetRoot(ROOT.Char.MakeScope).End)][ROOT.Char.Custom('NickCheck')]#!#!#!"
  CTP_Name_Arabic_no_tooltip: "#high [Localize(Concatenate(Concatenate(Concatenate(Concatenate(ROOT.Char.Custom('CharacterTier'),ROOT.Char.Custom('CharacterGender')),ROOT.Char.Custom('CharacterGov')),ROOT.Char.Custom('CharacterCulture')),ROOT.Char.Custom('CharacterReligion')))][GetScriptedGui('scripted_gui_ctp_laqab_tek_name_check').ExecuteTooltip(GuiScope.SetRoot(ROOT.Char.MakeScope).End)][ROOT.Char.Custom('NickCheck')]#!"
- CTP_Name_Arabic_possessive: "#L [Localize(Concatenate(Concatenate(Concatenate(Concatenate(ROOT.Char.Custom('CharacterTier'),ROOT.Char.Custom('CharacterGender')),ROOT.Char.Custom('CharacterGov')),ROOT.Char.Custom('CharacterCulture')),ROOT.Char.Custom('CharacterReligion')))][GetScriptedGui('scripted_gui_ctp_laqab_tek_name_check').ExecuteTooltip(GuiScope.SetRoot(ROOT.Char.MakeScope).End)]'s#!"
+ CTP_Name_Arabic_possessive: "#ONCLICK:CHARACTER,[ROOT.Char.GetID] #TOOLTIP:CHARACTER,[ROOT.Char.GetID] #L [Localize(Concatenate(Concatenate(Concatenate(Concatenate(ROOT.Char.Custom('CharacterTier'),ROOT.Char.Custom('CharacterGender')),ROOT.Char.Custom('CharacterGov')),ROOT.Char.Custom('CharacterCulture')),ROOT.Char.Custom('CharacterReligion')))][GetScriptedGui('scripted_gui_ctp_laqab_tek_name_check').ExecuteTooltip(GuiScope.SetRoot(ROOT.Char.MakeScope).End)]'s#!#!#!"
  CTP_Name_Arabic_no_tooltip_possesive: "#high [Localize(Concatenate(Concatenate(Concatenate(Concatenate(ROOT.Char.Custom('CharacterTier'),ROOT.Char.Custom('CharacterGender')),ROOT.Char.Custom('CharacterGov')),ROOT.Char.Custom('CharacterCulture')),ROOT.Char.Custom('CharacterReligion')))][GetScriptedGui('scripted_gui_ctp_laqab_tek_name_check').ExecuteTooltip(GuiScope.SetRoot(ROOT.Char.MakeScope).End)]'s#!"
 
  CTP_Name_Default: "[ROOT.Char.GetUIName]"
@@ -32,9 +34,9 @@
  CTP_Short_Name_Default_no_tooltip_possesive: "[ROOT.Char.GetShortUINamePossessiveNoTooltip]"
  CTP_Short_Name_Default_no_tooltip_possesive_not_my: "[ROOT.Char.GetShortUINamePossessiveNotMyNoTooltip]"
 
- CTP_Short_Name_Arabic: "#L [GetScriptedGui('scripted_gui_ctp_laqab_tek_name_check').ExecuteTooltip(GuiScope.SetRoot(ROOT.Char.MakeScope).End)]#!"
+ CTP_Short_Name_Arabic: "#ONCLICK:CHARACTER,[ROOT.Char.GetID] #TOOLTIP:CHARACTER,[ROOT.Char.GetID] #L [GetScriptedGui('scripted_gui_ctp_laqab_tek_name_check').ExecuteTooltip(GuiScope.SetRoot(ROOT.Char.MakeScope).End)]#!#!#!"
  CTP_Short_Name_Arabic_no_tooltip: "#high [GetScriptedGui('scripted_gui_ctp_laqab_tek_name_check').ExecuteTooltip(GuiScope.SetRoot(ROOT.Char.MakeScope).End)]#!"
- CTP_Short_Name_Arabic_possessive: "#L [GetScriptedGui('scripted_gui_ctp_laqab_tek_name_check').ExecuteTooltip(GuiScope.SetRoot(ROOT.Char.MakeScope).End)]'s#!"
+ CTP_Short_Name_Arabic_possessive: "#ONCLICK:CHARACTER,[ROOT.Char.GetID] #TOOLTIP:CHARACTER,[ROOT.Char.GetID] #L [GetScriptedGui('scripted_gui_ctp_laqab_tek_name_check').ExecuteTooltip(GuiScope.SetRoot(ROOT.Char.MakeScope).End)]'s#!#!#!"
  CTP_Short_Name_Arabic_no_tooltip_possessive: "#high [GetScriptedGui('scripted_gui_ctp_laqab_tek_name_check').ExecuteTooltip(GuiScope.SetRoot(ROOT.Char.MakeScope).End)]'s#!"
 
 
