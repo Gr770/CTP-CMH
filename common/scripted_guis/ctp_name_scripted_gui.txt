@@ -4,31 +4,84 @@
 		save_scope_as = effect_root
 		hidden_effect = {
 			IF = {
-				limit = {
-					any_child = {
-						is_male = yes
-						exists = this
+				limit = { is_alive = no is_male = yes }
+				IF = {
+					limit = { exists = dynasty }
+					dynasty = {
+						every_in_list = {
+							variable = dynasty_list_ctp_sons
+							limit = { scope:effect_root = THIS.father }
+							save_scope_as = scripted_gui_eldest_son
+						}
+						every_in_list = {
+							variable = dynasty_list_ctp_daughters
+							limit = { scope:effect_root = THIS.father }
+							save_scope_as = scripted_gui_eldest_daughter
+						}
 					}
 				}
-				ordered_child = {
-					limit = { is_male = yes }
-					order_by = age
-					position = 0
-					save_scope_as = scripted_gui_eldest_son
+				else_if = {
+					limit = { NOT = { exists = dynasty } }
+					every_in_global_list = {
+						variable = global_list_ctp_sons
+						limit = { scope:effect_root = THIS.father }
+						save_scope_as = scripted_gui_eldest_son
+					}
+					every_in_global_list = {
+						variable = global_list_ctp_daughters
+						limit = { scope:effect_root = THIS.father }
+						save_scope_as = scripted_gui_eldest_daughter
+					}
 				}
 			}
 			IF = {
-				limit = {
-					any_child = {
-						is_male = no
-						exists = this
+				limit = { is_alive = no is_male = no }
+				IF = {
+					limit = { exists = dynasty }
+					dynasty = {
+						every_in_list = {
+							variable = dynasty_list_ctp_sons
+							limit = { scope:effect_root = THIS.mother }
+							save_scope_as = scripted_gui_eldest_son
+						}
+						every_in_list = {
+							variable = dynasty_list_ctp_daughters
+							limit = { scope:effect_root = THIS.mother }
+							save_scope_as = scripted_gui_eldest_daughter
+						}
 					}
 				}
-				ordered_child = {
-					limit = { is_male = no }
-					order_by = age
-					position = 0
-					save_scope_as = scripted_gui_eldest_daughter
+				else_if = {
+					limit = { NOT = { exists = dynasty } }
+					every_in_global_list = {
+						variable = global_list_ctp_sons
+						limit = { scope:effect_root = THIS.mother }
+						save_scope_as = scripted_gui_eldest_son
+					}
+					every_in_global_list = {
+						variable = global_list_ctp_daughters
+						limit = { scope:effect_root = THIS.mother }
+						save_scope_as = scripted_gui_eldest_daughter
+					}
+				}
+			}
+			IF = {
+				limit = { is_alive = yes }
+				IF = {
+					limit = { exists = var:var_dad_eldest_son }
+					var:var_dad_eldest_son = { save_scope_as = scripted_gui_eldest_son }
+				}
+				else_if = {
+					limit = { exists = var:var_mom_eldest_son }
+					var:var_mom_eldest_son = { save_scope_as = scripted_gui_eldest_son }
+				}
+				else_if = {
+					limit = { exists = var:var_dad_eldest_daughter }
+					var:var_dad_eldest_daughter = { save_scope_as = scripted_gui_eldest_daughter }
+				}
+				else_if = {
+					limit = { exists = var:var_mom_eldest_daughter }
+					var:var_mom_eldest_daughter = { save_scope_as = scripted_gui_eldest_daughter }
 				}
 			}
 		}
@@ -390,31 +443,84 @@ scripted_gui_ctp_laqab_tek_name_check = {
 				}
 			}
 			IF = {
-				limit = {
-					any_child = {
-						is_male = yes
-						exists = this
+				limit = { is_alive = no is_male = yes }
+				IF = {
+					limit = { exists = dynasty }
+					dynasty = {
+						every_in_list = {
+							variable = dynasty_list_ctp_sons
+							limit = { scope:effect_root = THIS.father }
+							save_scope_as = scripted_gui_eldest_son
+						}
+						every_in_list = {
+							variable = dynasty_list_ctp_daughters
+							limit = { scope:effect_root = THIS.father }
+							save_scope_as = scripted_gui_eldest_daughter
+						}
 					}
 				}
-				ordered_child = {
-					limit = { is_male = yes }
-					order_by = age
-					position = 0
-					save_scope_as = scripted_gui_eldest_son
+				else_if = {
+					limit = { NOT = { exists = dynasty } }
+					every_in_global_list = {
+						variable = global_list_ctp_sons
+						limit = { scope:effect_root = THIS.father }
+						save_scope_as = scripted_gui_eldest_son
+					}
+					every_in_global_list = {
+						variable = global_list_ctp_daughters
+						limit = { scope:effect_root = THIS.father }
+						save_scope_as = scripted_gui_eldest_daughter
+					}
 				}
 			}
 			IF = {
-				limit = {
-					any_child = {
-						is_male = no
-						exists = this
+				limit = { is_alive = no is_male = no }
+				IF = {
+					limit = { exists = dynasty }
+					dynasty = {
+						every_in_list = {
+							variable = dynasty_list_ctp_sons
+							limit = { scope:effect_root = THIS.mother }
+							save_scope_as = scripted_gui_eldest_son
+						}
+						every_in_list = {
+							variable = dynasty_list_ctp_daughters
+							limit = { scope:effect_root = THIS.mother }
+							save_scope_as = scripted_gui_eldest_daughter
+						}
 					}
 				}
-				ordered_child = {
-					limit = { is_male = no }
-					order_by = age
-					position = 0
-					save_scope_as = scripted_gui_eldest_daughter
+				else_if = {
+					limit = { NOT = { exists = dynasty } }
+					every_in_global_list = {
+						variable = global_list_ctp_sons
+						limit = { scope:effect_root = THIS.mother }
+						save_scope_as = scripted_gui_eldest_son
+					}
+					every_in_global_list = {
+						variable = global_list_ctp_daughters
+						limit = { scope:effect_root = THIS.mother }
+						save_scope_as = scripted_gui_eldest_daughter
+					}
+				}
+			}
+			IF = {
+				limit = { is_alive = yes }
+				IF = {
+					limit = { exists = var:var_dad_eldest_son }
+					var:var_dad_eldest_son = { save_scope_as = scripted_gui_eldest_son }
+				}
+				else_if = {
+					limit = { exists = var:var_mom_eldest_son }
+					var:var_mom_eldest_son = { save_scope_as = scripted_gui_eldest_son }
+				}
+				else_if = {
+					limit = { exists = var:var_dad_eldest_daughter }
+					var:var_dad_eldest_daughter = { save_scope_as = scripted_gui_eldest_daughter }
+				}
+				else_if = {
+					limit = { exists = var:var_mom_eldest_daughter }
+					var:var_mom_eldest_daughter = { save_scope_as = scripted_gui_eldest_daughter }
 				}
 			}
 		}
