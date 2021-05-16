@@ -93,3 +93,33 @@ scripted_gui_trigger_laqab_strengthened_god = {
 	third = scripted_gui_laqab_strengthened_god
 	global = scripted_gui_laqab_strengthened_god
 }
+scripted_gui_trigger_laqab_blessed_god = {
+	first = scripted_gui_laqab_blessed_god
+	third = scripted_gui_laqab_blessed_god
+	global = scripted_gui_laqab_blessed_god
+}
+scripted_gui_trigger_laqab_dependent_god = {
+	first = scripted_gui_laqab_dependent_god
+	third = scripted_gui_laqab_dependent_god
+	global = scripted_gui_laqab_dependent_god
+}
+scripted_gui_trigger_laqab_relies_god = {
+	first = scripted_gui_laqab_relies_god
+	third = scripted_gui_laqab_relies_god
+	global = scripted_gui_laqab_relies_god
+}
+scripted_gui_trigger_laqab_refuge_god = {
+	first = scripted_gui_laqab_refuge_god
+	third = scripted_gui_laqab_refuge_god
+	global = scripted_gui_laqab_refuge_god
+}
+scripted_gui_trigger_laqab_trusts_god = {
+	first = scripted_gui_laqab_trusts_god
+	third = scripted_gui_laqab_trusts_god
+	global = scripted_gui_laqab_trusts_god
+}
+scripted_gui_trigger_laqab_help_god = {
+	first = scripted_gui_laqab_help_god
+	third = scripted_gui_laqab_help_god
+	global = scripted_gui_laqab_help_god
+}

@@ -71,6 +71,14 @@ ctpname.002 = {
 		add_to_global_variable_list = { name = laqab_truth_summoner target = character:45108 }
 		add_to_global_variable_list = { name = laqab_lion_god target = character:33911 }
 		add_to_global_variable_list = { name = laqab_strengthened_god target = character:34014 }
+		add_to_global_variable_list = { name = laqab_seeker_victory_god target = character:34012 }
+		add_to_global_variable_list = { name = laqab_relies_god target = character:34010 }
+		add_to_global_variable_list = { name = laqab_refuge_god target = character:34008 }
+		add_to_global_variable_list = { name = laqab_trusts_god target = character:34009 }
+		add_to_global_variable_list = { name = laqab_help_god target = character:34013 }
+		dynasty:100721 = {
+			add_to_variable_list = { name = dynasty_list_ctp_sons target = character:34010 }
+		}
 		character:45108 = {
 			add_character_flag = laqab_assigned
 			remove_nickname = yes
@@ -83,6 +91,54 @@ ctpname.002 = {
 		}
 		character:34014 = {
 			change_first_name = Muhammad
+			add_character_flag = laqab_assigned
+		}
+		character:34012 = {
+			change_first_name = Muhammad
+		}
+		character:34017 = {
+			change_first_name = Talha
+			add_character_flag = had_eldest_son
+			set_variable = { name = var_dad_eldest_son value = character:34018 }
+		}
+		character:34016 = {
+			change_first_name = Ahmad
+		}
+		character:34010 = {
+			change_first_name = Jafar
+		}
+		character:34008 = {
+			change_first_name = Muhammad
+		}
+		character:34009 = {
+			change_first_name = Harun
+		}
+		character:34015 = {
+			change_first_name = Muhammad
+		}
+		character:34005 = {
+			change_first_name = Harun
+			give_nickname = nick_orthodox
+		}
+		character:34013 = {
+			change_first_name = Ahmad
+		}
+		character:34018 = {
+			change_first_name = Ahmad
+		}
+	}
+}
+ctpname.003 = {
+	type = none
+	hidden = yes
+	trigger = {
+		year = 1066
+	}
+	immediate = {
+		add_to_global_variable_list = { name = laqab_blessed_god target = character:34017 }
+		add_to_global_variable_list = { name = laqab_dependent_god target = character:34016 }
+		dynasty:100721 = {
+			add_to_variable_list = { name = dynasty_list_ctp_sons target = character:34018 }
 		}
 	}
 }
