@@ -2,7 +2,7 @@
 
 #Full Name
 
- CTP_Full_Name_Arabic: "[Localize(Concatenate(Concatenate(Concatenate(Concatenate(ROOT.Char.Custom('CharacterTier'),ROOT.Char.Custom('CharacterGender')),ROOT.Char.Custom('CharacterGov')),ROOT.Char.Custom('CharacterCulture')),ROOT.Char.Custom('CharacterReligion')))][GetScriptedGui('scripted_gui_ctp_laqab').ExecuteTooltip(GuiScope.SetRoot(ROOT.Char.MakeScope).End)][GetScriptedGui('scripted_gui_ctp_tek').ExecuteTooltip(GuiScope.SetRoot(ROOT.Char.MakeScope).End)][Localize(Concatenate(ROOT.Char.GetFirstNameNoTooltip,ROOT.Char.Custom('CharacterCulture')))] [ROOT.Char.Custom('CharacterPat')][ROOT.Char.Custom('NickCheck')]"
+ CTP_Full_Name_Arabic: "[Localize(Concatenate(Concatenate(Concatenate(Concatenate(ROOT.Char.Custom('CharacterTier'),ROOT.Char.Custom('CharacterGender')),ROOT.Char.Custom('CharacterGov')),ROOT.Char.Custom('CharacterCulture')),ROOT.Char.Custom('CharacterReligion')))][GetScriptedGui('scripted_gui_ctp_laqab').ExecuteTooltip(GuiScope.SetRoot(ROOT.Char.MakeScope).End)][GetScriptedGui('scripted_gui_ctp_tek').ExecuteTooltip(GuiScope.SetRoot(ROOT.Char.MakeScope).End)][Localize(Concatenate(ROOT.Char.GetFirstNameNoTooltip,ROOT.Char.Custom('CharacterCulture')))][ROOT.Char.Custom('CharacterPat')][ROOT.Char.Custom('NickCheck')]"
 
  CTP_Full_Name_Default: "[ROOT.Char.GetUINameNotMeNoTooltip]"
 

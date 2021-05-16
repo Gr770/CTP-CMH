@@ -68,8 +68,7 @@ ctpname.002 = {
 		always = yes
 	}
     immediate = {
-		add_to_global_variable_list = { name = laqab_elder_missionary target = character:45108 }
-		add_to_global_variable_list = { name = laqab_younger_missionary target = character:163166 }
+		add_to_global_variable_list = { name = laqab_truth_summoner target = character:45108 }
 		add_to_global_variable_list = { name = laqab_lion_god target = character:33911 }
 		character:45108 = {
 			add_character_flag = laqab_assigned
