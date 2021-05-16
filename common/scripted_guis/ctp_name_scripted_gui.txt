@@ -76,16 +76,6 @@
 				object = scope:scripted_gui_eldest_daughter
 			}
 		}
-		else_if = {
-			limit = {
-				is_adult = yes
-			}
-			custom_description_no_bullet = {
-				text = ctp_no_child_trigger_kunya
-				subject = scope:effect_root
-				object = scope:effect_root
-			}
-		}
 		else = {
 			custom_description_no_bullet = {
 				text = ctp_blank_trigger_kunya
@@ -162,14 +152,14 @@ scripted_gui_ctp_laqab = {
 					save_scope_as = laqab_possessor_lights_scope
 				}
 				every_in_global_list = {
-					variable = laqab_elder_missionary
+					variable = laqab_truth_summoner
 					limit = { scope:effect_root = THIS }
-					save_scope_as = laqab_elder_missionary_scope
+					save_scope_as = laqab_truth_summoner_scope
 				}
 				every_in_global_list = {
-					variable = laqab_younger_missionary
+					variable = laqab_lion_god
 					limit = { scope:effect_root = THIS }
-					save_scope_as = laqab_younger_missionary_scope
+					save_scope_as = laqab_lion_god_scope
 				}
 			}
 		}
@@ -205,20 +195,10 @@ scripted_gui_ctp_laqab = {
 		}
 		else_if = {
 			limit = {
-				exists = scope:laqab_elder_missionary_scope
+				exists = scope:laqab_truth_summoner_scope
 			}
 			custom_description_no_bullet = {
-				text = scripted_gui_trigger_laqab_elder_missionary
-				subject = scope:effect_root
-				object = scope:effect_root
-			}
-		}
-		else_if = {
-			limit = {
-				exists = scope:laqab_younger_missionary_scope
-			}
-			custom_description_no_bullet = {
-				text = scripted_gui_trigger_laqab_younger_missionary
+				text = scripted_gui_trigger_laqab_truth_summoner
 				subject = scope:effect_root
 				object = scope:effect_root
 			}
@@ -309,6 +289,16 @@ scripted_gui_ctp_laqab = {
 			}
 			custom_description_no_bullet = {
 				text = scripted_gui_trigger_laqab_possessor_lights
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_lion_god_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_lion_god
 				subject = scope:effect_root
 				object = scope:effect_root
 			}
@@ -389,14 +379,14 @@ scripted_gui_ctp_laqab_tek_name_check = {
 					save_scope_as = laqab_possessor_lights_scope
 				}
 				every_in_global_list = {
-					variable = laqab_elder_missionary
+					variable = laqab_truth_summoner
 					limit = { scope:effect_root = THIS }
-					save_scope_as = laqab_elder_missionary_scope
+					save_scope_as = laqab_truth_summoner_scope
 				}
 				every_in_global_list = {
-					variable = laqab_younger_missionary
+					variable = laqab_lion_god
 					limit = { scope:effect_root = THIS }
-					save_scope_as = laqab_younger_missionary_scope
+					save_scope_as = laqab_lion_god_scope
 				}
 			}
 			IF = {
@@ -460,20 +450,10 @@ scripted_gui_ctp_laqab_tek_name_check = {
 		}
 		else_if = {
 			limit = {
-				exists = scope:laqab_elder_missionary_scope
+				exists = scope:laqab_truth_summoner_scope
 			}
 			custom_description_no_bullet = {
-				text = scripted_gui_trigger_laqab_elder_missionary
-				subject = scope:effect_root
-				object = scope:effect_root
-			}
-		}
-		else_if = {
-			limit = {
-				exists = scope:laqab_younger_missionary_scope
-			}
-			custom_description_no_bullet = {
-				text = scripted_gui_trigger_laqab_younger_missionary
+				text = scripted_gui_trigger_laqab_truth_summoner
 				subject = scope:effect_root
 				object = scope:effect_root
 			}
@@ -564,6 +544,16 @@ scripted_gui_ctp_laqab_tek_name_check = {
 			}
 			custom_description_no_bullet = {
 				text = scripted_gui_trigger_laqab_possessor_lights
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_lion_god_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_lion_god
 				subject = scope:effect_root
 				object = scope:effect_root
 			}

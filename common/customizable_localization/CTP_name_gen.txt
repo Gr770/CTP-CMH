@@ -696,9 +696,9 @@ CharacterGov = {
     }
     text = {
         trigger = {
-            has_government = mercanary_government
+            has_government = mercenary_government
         }
-        localization_key = _mercanary
+        localization_key = _mercenary
     }
     text = {
         fallback = yes

@@ -1,0 +1,2 @@
+﻿nick_younger_missionary = {}
+nick_muslim_prophet = {}
