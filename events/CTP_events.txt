@@ -70,6 +70,7 @@ ctpname.002 = {
     immediate = {
 		add_to_global_variable_list = { name = laqab_truth_summoner target = character:45108 }
 		add_to_global_variable_list = { name = laqab_lion_god target = character:33911 }
+		add_to_global_variable_list = { name = laqab_strengthened_god target = character:34014 }
 		character:45108 = {
 			add_character_flag = laqab_assigned
 			remove_nickname = yes
@@ -79,6 +80,9 @@ ctpname.002 = {
 		}
 		character:33926 = {
 			give_nickname = nick_muslim_prophet
+		}
+		character:34014 = {
+			change_first_name = Muhammad
 		}
 	}
 }

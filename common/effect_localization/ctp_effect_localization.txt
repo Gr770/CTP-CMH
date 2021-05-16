@@ -88,4 +88,8 @@ scripted_gui_trigger_laqab_lion_god = {
 	third = scripted_gui_laqab_lion_god
 	global = scripted_gui_laqab_lion_god
 }
+scripted_gui_trigger_laqab_strengthened_god = {
+	first = scripted_gui_laqab_strengthened_god
+	third = scripted_gui_laqab_strengthened_god
+	global = scripted_gui_laqab_strengthened_god
 }
