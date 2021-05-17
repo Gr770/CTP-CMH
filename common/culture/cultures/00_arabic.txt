@@ -192,7 +192,7 @@
 				Qasim Said Yazid Yunus Yusuf 
 			}
 			322 = {
-				Aban Adi Ala Amin Anas Aqil As Asad Ashhab Asif Asim Aslam Ata Aws Badr Bahr Bakkar Bakr Balj Bashir Bilal Bishr Bukayr Fajr Faraj Furat Futays Ghalib
+				Aban Adi Ala Amin Aarif Anas Aqil As Asad Ashhab Asif Asim Aslam Ata Aws Badr Bahr Bakkar Bakr Balj Bashir Bilal Bishr Bukayr Fajr Faraj Furat Futays Ghalib
 				Ghazi Habib Hafs Hakam Hamdan Hamid Hamza Harith Harmala Hashim Haytham Hayyan Hazm Hilal Himas Hubab Hubaysh Huda Hunayn Imran Ishaya Jabir Jahhaf
 				Jahl Jalil Jamal Jami Jamil Jubayr Juda Kamil Khalaf Khaldun Khalil Khattab Khayr Layth Maad Maan Mabad Mahbub Mahdi Malik Mansur Masud Matar Maymun
 				Mihran Miqdam Mirdas Mubarak Mudar Mujahid Mulahhab Muntasir Musab Mustafa Muti Nabit Nafi Naim Najih Najm Nasir Nasr Nazir Numan Nusayr Qabisa Qaim
@@ -411,7 +411,7 @@
 				Qasim Said Yazid Yunus Yusuf 
 			}
 			1610 = {
-				Aban Adi Ala Amin Anas Aqil As Asad Ashhab Asif Asim Aslam Ata Aws Badr Bahr Bakkar Bakr Balj Bashir Bilal Bishr Bukayr Fajr Faraj Furat Futays Ghalib
+				Aban Adi Ala Amin Anas Aqil As Asad Ashhab Aarif Asif Asim Aslam Ata Aws Badr Bahr Bakkar Bakr Balj Bashir Bilal Bishr Bukayr Fajr Faraj Furat Futays Ghalib
 				Ghazi Habib Hafs Hakam Hamdan Hamid Hamza Harith Harmala Hashim Haytham Hayyan Hazm Hilal Himas Hubab Hubaysh Huda Hunayn Imran Ishaya Jabir Jahhaf
 				Jahl Jalil Jamal Jami Jamil Jubayr Juda Kamil Khalaf Khaldun Khalil Khattab Khayr Layth Maad Maan Mabad Mahbub Mahdi Malik Mansur Masud Matar Maymun
 				Mihran Miqdam Mirdas Mubarak Mudar Mujahid Mulahhab Muntasir Musab Mustafa Muti Nabit Nafi Naim Najih Najm Nasir Nasr Nazir Numan Nusayr Qabisa Qaim
@@ -543,7 +543,7 @@
 				Qasim Said Yazid Yunus Yusuf 
 			}
 			1610 = {
-				Aban Adi Ala Amin Anas Aqil As Asad Ashhab Asif Asim Aslam Ata Aws Badr Bahr Bakkar Bakr Balj Bashir Bilal Bishr Bukayr Fajr Faraj Furat Futays Ghalib
+				Aban Adi Ala Aarif Amin Anas Aqil As Asad Ashhab Asif Asim Aslam Ata Aws Badr Bahr Bakkar Bakr Balj Bashir Bilal Bishr Bukayr Fajr Faraj Furat Futays Ghalib
 				Ghazi Habib Hafs Hakam Hamdan Hamid Hamza Harith Harmala Hashim Haytham Hayyan Hazm Hilal Himas Hubab Hubaysh Huda Hunayn Imran Ishaya Jabir Jahhaf
 				Jahl Jalil Jamal Jami Jamil Jubayr Juda Kamil Khalaf Khaldun Khalil Khattab Khayr Layth Maad Maan Mabad Mahbub Mahdi Malik Mansur Masud Matar Maymun
 				Mihran Miqdam Mirdas Mubarak Mudar Mujahid Mulahhab Muntasir Musab Mustafa Muti Nabit Nafi Naim Najih Najm Nasir Nasr Nazir Numan Nusayr Qabisa Qaim
@@ -773,20 +773,54 @@
 		}
 
 		male_names = {
-			Aaron Abanoub Abderahman Abdul-Aziz Abdul-Haq Abdul-Madjid Abdul-Salaam Abdullah
-			Abianos Abisalom Ablarion Abraam Abu-Bakr Adnan Agathon Agathonikos Agathos
-			Ahmad Akbar Alam Ali Amr Androus Anthinos Arsenios Ashraf Asim
-			Athanasios Badr Bashir Biktor Binyamin Bishoi Boutros Danyal Dawlat Da_oud
-			Ezra Farhan Firuz Gabri_el Georgios Ghiyasaddin Habil Hakam Hammud Hanri Haroun Hisham
-			Hussayn Ibrahim Ilyas Is_mail Izzaddin Jalaaladdin Jawdat Jerjer Kemaladdin Khalil Krystafer
-			Latif Lot Malik Matta Mehtar Mikail Mikhael Milad Mina Muammar Muhammad
-			Mukhtar Murad Murshid Musa Muzaffaraddin Nabil Nasir Nassib Nuraddin Pamin Qadir Ra_uf Rafiq Ridwan Sabah Salim Sha_ban
-			Sharif Suhail Tadros Tajaddin Tayyib Touma Usama Walid Yahya Yared Yassir Youkhanna Youssef Zaia Zakariyah
+			30 = {
+				Muhammad
+			}
+			36 = {
+				Ahmad Ali Hasan Husayn Jafar Musa Umar Uthman Yahya
+			}
+			90 = {
+				Abbas Adam Amr Ayyub Dawud Dulaf Fadl Fath Hadi Aaron Hisham Ibrahim Idris Ilyas Isa Ishaq Ismail Jibrail Khalid Luqman Lut Marwan Maslama Muawiya Nuh
+				Qasim Said Yazid Yunus Yusuf 
+			}
+			322 = {
+				Aban Adi Ala Amin Aarif Anas Aqil As Asad Ashhab Asif Asim Aslam Ata Aws Badr Bahr Bakkar Bakr Balj Bashir Bilal Bishr Bukayr Fajr Faraj Furat Futays Ghalib
+				Ghazi Habib Hafs Hakam Hamdan Hamid Hamza Harith Harmala Hashim Haytham Hayyan Hazm Hilal Himas Hubab Hubaysh Huda Hunayn Imran Ishaya Jabir Jahhaf
+				Jahl Jalil Jamal Jami Jamil Jubayr Juda Kamil Khalaf Khaldun Khalil Khattab Khayr Layth Maad Maan Mabad Mahbub Mahdi Malik Mansur Masud Matar Maymun
+				Mihran Miqdam Mirdas Mubarak Mudar Mujahid Mulahhab Muntasir Musab Mustafa Muti Nabit Nafi Naim Najih Najm Nasir Nasr Nazir Numan Nusayr Qabisa Qaim
+				Qatada Qays Qurra Qutayba Rabi Rabia Rashid Rawwad Ridwan Ruh Rushd Sabah Sad Sadiq Sadun Sahl Sahnun Salama Salih Salim Salman Shadhan Sharaf Sharif
+				Shariq Shayban Shuja Shumayl Sinan Sufyan Sulayman Tahir Talha Tamim Tammam Tarif Tariq Tayyib Ubayda Ubayy Ulaym Umayr Umayya Uqba Urayb Usama Utba
+				Uways Wadi Wahb Wahid Walid Wasim Yala Yamut Yaqub Yasir Zakariya Zayd Zayn Ziyad Zubayr Zuhayr
+			}
+			27 = {
+				Abbad Abid Adil Affan Aghlab Awn Aziz Barakat Buhayr Buwayh Fahr Ghassan Hajjaj Haris Jarir Kumayl Mahmud Mundhir Muttalib Nizar Razin Sattar Shabib
+				Subh Sulaym Thabit Ubayd
+			}
+			1 = {
+				Afrasiyab Bahram Dinar Shajar Waki 
+			}
 		}
 		female_names = {
-			Acenith Alia Amunet Andali Asanet Asenath Asenet Azenet Badiat Cena Fatima Halima
-			Jamila Khadija Majida Mariam Nabila Nura Radiya Rana Sacmis Safiya
-			Samira Suhaila Tawaret Taweret Titi Thuriya Zara Zahra
+			28 = {
+				Aisha Fatima Hind Khadija Layla Maria Zaynab 
+			}
+			30 = {
+				Aliya Arwa Eve Khalida Nadiyya Nur Ruqayya Safiyya Salima Salma 
+			}
+			216 = {
+				Abbasa Abla Afiya Amina Asma Atika Aziza Daniya Dima Durr Fahra Fannu Dinar Fajr Ghada Ghaliba Ghaniya Habiba Hafsa Hagar Halima Hamda Hamida Hanifa
+				Hassana Hawra Hayal Hubaba Huda Hushayma Ibtisam Inan Ishraq Jalida Jalila Jamila Jawhara Jawra Jumana Kanza Karima Khawla Kinda Lubaba Maha Mahbuba
+				Mahuna Mamara Mashuq Maymuna Maysun Muhja Mulayka Mumina Muna Muta Muzahima Muzna Nafisa Naima Najat Najiya Najma Nasiba Nasira Nazhun Nuwayra Qamar
+				Qasima Qasmuna Rabia Radiya Rafiqa Rebecca Rachel Rashida Rasis Rubab Rayhana Ruhayma Rumayla Saada Sada Sakan Salwa Sama Samra Shams Shan Shariya Shifa
+				Suad Sukayna Sura Tahira Tarifa Thuwayba Ubayda Ulayya Usayma Utayyqa Wahida Wallada Yamina Zahida Zahira Zahra Zunayra
+			}
+			22 = {
+				Abida Adila Afira Arib Burayha Buthayna Danaa Ghamama Hakima Hamduna Juml Lidhdha Lubna Mahabba Mayya Sattara Sawwab Shajara Shakira Taqiyya Zabiba Zummurrud
+			}
+			5 = {
+				Amsha Asmuna Ayshuna Baraka Fathuna Fatna Faynan Futayma Ghaya Idlal Itimad Judur Marjan Masabih Muzayna Narjis Num Nuzha Ray Saduna Sihr Tarub Umayna
+				Ward Yahaira 
+			}
 		}
 		dynasty_of_location_prefix = "dynnp_mn"
 		
@@ -911,7 +945,7 @@
 				Qasim Said Yazid Yunus Yusuf 
 			}
 			322 = {
-				Aban Adi Ala Amin Anas Aqil As Asad Ashhab Asif Asim Aslam Ata Aws Badr Bahr Bakkar Bakr Balj Bashir Bilal Bishr Bukayr Fajr Faraj Furat Futays Ghalib
+				Aban Adi Ala Amin Aarif Anas Aqil As Asad Ashhab Asif Asim Aslam Ata Aws Badr Bahr Bakkar Bakr Balj Bashir Bilal Bishr Bukayr Fajr Faraj Furat Futays Ghalib
 				Ghazi Habib Hafs Hakam Hamdan Hamid Hamza Harith Harmala Hashim Haytham Hayyan Hazm Hilal Himas Hubab Hubaysh Huda Hunayn Imran Ishaya Jabir Jahhaf
 				Jahl Jalil Jamal Jami Jamil Jubayr Juda Kamil Khalaf Khaldun Khalil Khattab Khayr Layth Maad Maan Mabad Mahbub Mahdi Malik Mansur Masud Matar Maymun
 				Mihran Miqdam Mirdas Mubarak Mudar Mujahid Mulahhab Muntasir Musab Mustafa Muti Nabit Nafi Naim Najih Najm Nasir Nasr Nazir Numan Nusayr Qabisa Qaim
@@ -1135,7 +1169,7 @@
 				Qasim Said Yazid Yunus Yusuf 
 			}
 			322 = {
-				Aban Adi Ala Amin Anas Aqil As Asad Ashhab Asif Asim Aslam Ata Aws Badr Bahr Bakkar Bakr Balj Bashir Bilal Bishr Bukayr Fajr Faraj Furat Futays Ghalib
+				Aban Adi Aarif Ala Amin Anas Aqil As Asad Ashhab Asif Asim Aslam Ata Aws Badr Bahr Bakkar Bakr Balj Bashir Bilal Bishr Bukayr Fajr Faraj Furat Futays Ghalib
 				Ghazi Habib Hafs Hakam Hamdan Hamid Hamza Harith Harmala Hashim Haytham Hayyan Hazm Hilal Himas Hubab Hubaysh Huda Hunayn Imran Ishaya Jabir Jahhaf
 				Jahl Jalil Jamal Jami Jamil Jubayr Juda Kamil Khalaf Khaldun Khalil Khattab Khayr Layth Maad Maan Mabad Mahbub Mahdi Malik Mansur Masud Matar Maymun
 				Mihran Miqdam Mirdas Mubarak Mudar Mujahid Mulahhab Muntasir Musab Mustafa Muti Nabit Nafi Naim Najih Najm Nasir Nasr Nazir Numan Nusayr Qabisa Qaim

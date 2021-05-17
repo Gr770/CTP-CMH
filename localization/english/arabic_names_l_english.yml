@@ -1,4 +1,9 @@
 ﻿l_english:
+ Aarif_arabic: "ʾArif"
+ Aarif_arabic_tek_mom: "ʾUmm ʾArif"
+ Aarif_arabic_tek_dad: "ʾAbū ʾArif"
+ Aarif_arabic_pat_dad_male: "ibn ʾArif"
+ Aarif_arabic_pat_dad_female: "bint ʾArif"
  
  Aban_arabic: "ʾAbān"
  Aban_arabic_tek_mom: "ʾUmm ʾAbān"
@@ -28,11 +33,17 @@
  Al-Abbas_arabic_pat_dad_male: "ibn al-ʿAbbās"
  Al-Abbas_arabic_pat_dad_female: "bint al-ʿAbbās"
 
- Abid_arabic: "ʿĀbid"
- Abid_arabic_tek_mom: "ʾUmm ʿĀbid"
- Abid_arabic_tek_dad: "ʾAbū ʿĀbid"
- Abid_arabic_pat_dad_male: "ibn ʿĀbid"
- Abid_arabic_pat_dad_female: "bint ʿĀbid"
+ Abid_arabic: "ʾAbū Bakr"
+ Abid_arabic_tek_mom: "ʾUmm ʾAbi Bakr"
+ Abid_arabic_tek_dad: "ʾAbū ʾAbi Bakr"
+ Abid_arabic_pat_dad_male: "ibn ʾAbū Bakr"
+ Abid_arabic_pat_dad_female: "bint ʾAbū Bakr"
+
+ Abu-Bakr_arabic: "ʿĀbid"
+ Abu-Bakr_arabic_tek_mom: "ʾUmm ʿĀbid"
+ Abu-Bakr_arabic_tek_dad: "ʾAbū ʿĀbid"
+ Abu-Bakr_arabic_pat_dad_male: "ibn ʿĀbid"
+ Abu-Bakr_arabic_pat_dad_female: "bint ʿĀbid"
 
  Adam_arabic: "ʾĀdam"
  Adam_arabic_tek_mom: "ʾUmm ʾĀdam"
@@ -111,7 +122,6 @@
  Ali_arabic: "ʿAlī"
  Ali_arabic_tek_mom: "ʾUmm ʿAlī"
  Ali_arabic_tek_dad: "ʾAbū ʿAlī"
- Ali_arabic_no_child_tek: "ʾAbū Ḥusayn "
  Ali_arabic_pat_dad_male: "ibn ʿAlī"
  Ali_arabic_pat_dad_female: "bint ʿAlī"
 
@@ -175,6 +185,12 @@
  Armaqand_arabic_tek_dad: "ʾAbū ʾArmaqand"
  Armaqand_arabic_pat_dad_male: "ibn ʾArmaqand"
  Armaqand_arabic_pat_dad_female: "bint ʾArmaqand"
+
+ Aram_arabic: "ʿAram"
+ Aram_arabic_tek_mom: "ʾUmm ʿAram"
+ Aram_arabic_tek_dad: "ʾAbū ʿAram"
+ Aram_arabic_pat_dad_male: "ibn ʿAram"
+ Aram_arabic_pat_dad_female: "bint ʿAram"
 
  As_arabic: "al-ʿĀṣ"
  As_arabic_tek_mom: "ʾUmm al-ʿĀṣ"
@@ -3185,6 +3201,17 @@
  Abdul-Fattah_arabic_pat_dad_male: "ibn ʿAbd al-Fattāḥ"
  Abdul-Fattah_arabic_pat_dad_female: "bint ʿAbd al-Fattāḥ"
 
+ Abdal-Ghafur_arabic: "ʿAbd al-Ġafūr"
+ Abdal-Ghafur_arabic_tek_mom: "ʾUmm ʿAbd al-Ġafūr"
+ Abdal-Ghafur_arabic_tek_dad: "ʾAbū ʿAbd al-Ġafūr"
+ Abdal-Ghafur_arabic_pat_dad_male: "ibn ʿAbd al-Ġafūr"
+ Abdal-Ghafur_arabic_pat_dad_female: "bint ʿAbd al-Ġafūr"
+ Abdul-Gafur_arabic: "ʿAbd al-Ġafūr"
+ Abdul-Gafur_arabic_tek_mom: "ʾUmm ʿAbd al-Ġafūr"
+ Abdul-Gafur_arabic_tek_dad: "ʾAbū ʿAbd al-Ġafūr"
+ Abdul-Gafur_arabic_pat_dad_male: "ibn ʿAbd al-Ġafūr"
+ Abdul-Gafur_arabic_pat_dad_female: "bint ʿAbd al-Ġafūr"
+
  Abdal-Ghani_arabic: "ʿAbd al-Ġanī"
  Abdal-Ghani_arabic_tek_mom: "ʾUmm ʿAbd al-Ġanī"
  Abdal-Ghani_arabic_tek_dad: "ʾAbū ʿAbd al-Ġanī"
@@ -3257,6 +3284,11 @@
  Abdal-Jalil_arabic_tek_dad: "ʾAbū ʿAbd al-Jalīl"
  Abdal-Jalil_arabic_pat_dad_male: "ibn ʿAbd al-Jalīl"
  Abdal-Jalil_arabic_pat_dad_female: "bint ʿAbd al-Jalīl"
+ Abdul-Jaleel_arabic: "ʿAbd al-Jalīl"
+ Abdul-Jaleel_arabic_tek_mom: "ʾUmm ʿAbd al-Jalīl"
+ Abdul-Jaleel_arabic_tek_dad: "ʾAbū ʿAbd al-Jalīl"
+ Abdul-Jaleel_arabic_pat_dad_male: "ibn ʿAbd al-Jalīl"
+ Abdul-Jaleel_arabic_pat_dad_female: "bint ʿAbd al-Jalīl"
 
  Abdal-Karim_arabic: "ʿAbd al-Karīm"
  Abdal-Karim_arabic_tek_mom: "ʾUmm ʿAbd al-Karīm"
@@ -3362,6 +3394,11 @@
  Abdal-Qadir_arabic_tek_dad: "ʾAbū ʿAbd al-Qādir"
  Abdal-Qadir_arabic_pat_dad_male: "ibn ʿAbd al-Qādir"
  Abdal-Qadir_arabic_pat_dad_female: "bint ʿAbd al-Qādir"
+ Abdul-Qadir_arabic: "ʿAbd al-Qādir"
+ Abdul-Qadir_arabic_tek_mom: "ʾUmm ʿAbd al-Qādir"
+ Abdul-Qadir_arabic_tek_dad: "ʾAbū ʿAbd al-Qādir"
+ Abdul-Qadir_arabic_pat_dad_male: "ibn ʿAbd al-Qādir"
+ Abdul-Qadir_arabic_pat_dad_female: "bint ʿAbd al-Qādir"
 
  Abdal-Qahir_arabic: "ʿAbd al-Qāhir"
  Abdal-Qahir_arabic_tek_mom: "ʾUmm ʿAbd al-Qāhir"
