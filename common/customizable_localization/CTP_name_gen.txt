@@ -3,9 +3,6 @@
 	text = {
 		trigger = {
 			has_culture_group = culture_group:arabic_group
-			NOT = {
-				has_culture = culture:maghrebi
-			}
 		}
 		localization_key = CTP_Full_Name_Arabic
 	}
@@ -25,9 +22,6 @@ CTPName = {
     text = {
 		trigger = {
 			has_culture_group = culture_group:arabic_group
-			NOT = {
-				has_culture = culture:maghrebi
-			}
 		}
 		localization_key = CTP_Name_Arabic
 	}
@@ -47,9 +41,6 @@ CTPShortName = {
     text = {
 		trigger = {
 			has_culture_group = culture_group:arabic_group
-			NOT = {
-				has_culture = culture:maghrebi
-			}
 		}
 		localization_key = CTP_Short_Name_Arabic
 	}
@@ -69,9 +60,6 @@ CTPNameNoTooltip = {
     text = {
 		trigger = {
 			has_culture_group = culture_group:arabic_group
-			NOT = {
-				has_culture = culture:maghrebi
-			}
 		}
 		localization_key = CTP_Name_Arabic_no_tooltip
 	}
@@ -91,9 +79,6 @@ CTPShortNameNoTooltip = {
     text = {
 		trigger = {
 			has_culture_group = culture_group:arabic_group
-			NOT = {
-				has_culture = culture:maghrebi
-			}
 		}
 		localization_key = CTP_Short_Name_Arabic_no_tooltip
 	}
@@ -107,9 +92,6 @@ CTPNameNotMe = {
     text = {
 		trigger = {
 			has_culture_group = culture_group:arabic_group
-			NOT = {
-				has_culture = culture:maghrebi
-			}
 		}
 		localization_key = CTP_Name_Arabic
 	}
@@ -123,9 +105,6 @@ CTPShortNameNotMe = {
     text = {
 		trigger = {
 			has_culture_group = culture_group:arabic_group
-			NOT = {
-				has_culture = culture:maghrebi
-			}
 		}
 		localization_key = CTP_Short_Name_Arabic
 	}
@@ -139,9 +118,6 @@ CTPNameNotMeNoTooltip = {
     text = {
 		trigger = {
 			has_culture_group = culture_group:arabic_group
-			NOT = {
-				has_culture = culture:maghrebi
-			}
 		}
 		localization_key = CTP_Name_Arabic_no_tooltip
 	}
@@ -155,9 +131,6 @@ CTPShortNameNotMeNoTooltip = {
     text = {
 		trigger = {
 			has_culture_group = culture_group:arabic_group
-			NOT = {
-				has_culture = culture:maghrebi
-			}
 		}
 		localization_key = CTP_Short_Name_Arabic_no_tooltip
 	}
@@ -177,9 +150,6 @@ CTPNamePossessive = {
     text = {
 		trigger = {
 			has_culture_group = culture_group:arabic_group
-			NOT = {
-				has_culture = culture:maghrebi
-			}
 		}
 		localization_key = CTP_Name_Arabic_possessive
 	}
@@ -199,9 +169,6 @@ CTPShortNamePossessive = {
     text = {
 		trigger = {
 			has_culture_group = culture_group:arabic_group
-			NOT = {
-				has_culture = culture:maghrebi
-			}
 		}
 		localization_key = CTP_Short_Name_Arabic_possessive
 	}
@@ -221,9 +188,6 @@ CTPNamePossessiveNoTooltip = {
     text = {
 		trigger = {
 			has_culture_group = culture_group:arabic_group
-			NOT = {
-				has_culture = culture:maghrebi
-			}
 		}
 		localization_key = CTP_Name_Arabic_no_tooltip_possessive
 	}
@@ -243,9 +207,6 @@ CTPShortNamePossessiveNoTooltip = {
     text = {
 		trigger = {
 			has_culture_group = culture_group:arabic_group
-			NOT = {
-				has_culture = culture:maghrebi
-			}
 		}
 		localization_key = CTP_Short_Name_Arabic_no_tooltip_possessive
 	}
@@ -259,9 +220,6 @@ CTPNamePossessiveNotMy = {
     text = {
 		trigger = {
 			has_culture_group = culture_group:arabic_group
-			NOT = {
-				has_culture = culture:maghrebi
-			}
 		}
 		localization_key = CTP_Name_Arabic_possessive
 	}
@@ -275,9 +233,6 @@ CTPShortNamePossessiveNotMy = {
     text = {
 		trigger = {
 			has_culture_group = culture_group:arabic_group
-			NOT = {
-				has_culture = culture:maghrebi
-			}
 		}
 		localization_key = CTP_Short_Name_Arabic_possessive
 	}
@@ -291,9 +246,6 @@ CTPNamePossessiveNoTooltipNotMy = {
     text = {
 		trigger = {
 			has_culture_group = culture_group:arabic_group
-			NOT = {
-				has_culture = culture:maghrebi
-			}
 		}
 		localization_key = CTP_Name_Arabic_no_tooltip_possessive
 	}
@@ -307,9 +259,6 @@ CTPShortNamePossessiveNoTooltipNotMy = {
     text = {
 		trigger = {
 			has_culture_group = culture_group:arabic_group
-			NOT = {
-				has_culture = culture:maghrebi
-			}
 		}
 		localization_key = CTP_Short_Name_Arabic_no_tooltip_possessive
 	}
@@ -760,18 +709,9 @@ CharacterGov = {
 }
 CharacterCulture = {
     type = character
-    text = {
-		trigger = {
-			has_culture = culture:andalusian
-		}
-		localization_key = _andalusian
-	}
 	text = {
 		trigger = {
 			has_culture_group = culture_group:arabic_group
-			NOT = {
-				has_culture = culture:maghrebi
-			}
 		}
 		localization_key = _arabic
 	}
