@@ -185,27 +185,27 @@
 				Muhammad
 			}
 			36 = {
-				Ahmad Ali Hasan Husayn Jafar Moses Umar Uthman John
+				Ahmad Ali Hasan Husayn Jafar Musa Umar Uthman Yahya
 			}
 			90 = {
-				Abbas Adam Amr Job David Dulaf Fadl Fath Hadi Aaron Hisham Abraham Enoch Elijah Jesus Isaac Ismail Gabriel Khalid Luqman Lut Marwan Maslama Muawiya Noah
-				Qasim Said Yazid Jonas Joseph 
+				Abbas Adam Amr Ayyub Dawud Dulaf Fadl Fath Hadi Aaron Hisham Ibrahim Idris Ilyas Isa Ishaq Ismail Jibrail Khalid Luqman Lut Marwan Maslama Muawiya Nuh
+				Qasim Said Yazid Yunus Yusuf 
 			}
 			322 = {
 				Aban Adi Ala Amin Anas Aqil As Asad Ashhab Asif Asim Aslam Ata Aws Badr Bahr Bakkar Bakr Balj Bashir Bilal Bishr Bukayr Fajr Faraj Furat Futays Ghalib
-				Ghazi Habib Hafs Hakam Hamdan Hamid Hamza Harith Harmala Hashim Haytham Hayyan Hazm Hilal Himas Hubab Hubaysh Huda Hunayn Joachim Isaiah Jabir Jahhaf
+				Ghazi Habib Hafs Hakam Hamdan Hamid Hamza Harith Harmala Hashim Haytham Hayyan Hazm Hilal Himas Hubab Hubaysh Huda Hunayn Imran Ishaya Jabir Jahhaf
 				Jahl Jalil Jamal Jami Jamil Jubayr Juda Kamil Khalaf Khaldun Khalil Khattab Khayr Layth Maad Maan Mabad Mahbub Mahdi Malik Mansur Masud Matar Maymun
 				Mihran Miqdam Mirdas Mubarak Mudar Mujahid Mulahhab Muntasir Musab Mustafa Muti Nabit Nafi Naim Najih Najm Nasir Nasr Nazir Numan Nusayr Qabisa Qaim
 				Qatada Qays Qurra Qutayba Rabi Rabia Rashid Rawwad Ridwan Ruh Rushd Sabah Sad Sadiq Sadun Sahl Sahnun Salama Salih Salim Salman Shadhan Sharaf Sharif
-				Shariq Shayban Shuja Shumayl Sinan Sufyan Solomon Tahir Talha Tamim Tammam Tarif Tariq Tayyib Ubayda Ubayy Ulaym Umayr Umayya Uqba Urayb Usama Utba
-				Uways Wadi Wahb Wahid Walid Wasim Yala Yamut Jacob Yasir Zachariah Zayd Zayn Ziyad Zubayr Zuhayr
+				Shariq Shayban Shuja Shumayl Sinan Sufyan Sulayman Tahir Talha Tamim Tammam Tarif Tariq Tayyib Ubayda Ubayy Ulaym Umayr Umayya Uqba Urayb Usama Utba
+				Uways Wadi Wahb Wahid Walid Wasim Yala Yamut Yaqub Yasir Zakariya Zayd Zayn Ziyad Zubayr Zuhayr
 			}
 			27 = {
 				Abbad Abid Adil Affan Aghlab Awn Aziz Barakat Buhayr Buwayh Fahr Ghassan Hajjaj Haris Jarir Kumayl Mahmud Mundhir Muttalib Nizar Razin Sattar Shabib
 				Subh Sulaym Thabit Ubayd
 			}
 			1 = {
-				Afrasiab Bahram Dinar Shajar Waki 
+				Afrasiyab Bahram Dinar Shajar Waki 
 			}
 		}
 		female_names = {
@@ -404,27 +404,27 @@
 				Muhammad
 			}
 			180 = {
-				Ahmad Ali Hasan Husayn Jafar Moses Umar Uthman John
+				Ahmad Ali Hasan Husayn Jafar Musa Umar Uthman Yahya
 			}
 			450 = {
-				Abbas Adam Amr Job David Dulaf Fadl Fath Hadi Aaron Hisham Abraham Enoch Elijah Jesus Isaac Ismail Gabriel Khalid Luqman Lut Marwan Maslama Muawiya Noah
-				Qasim Said Yazid Jonas Joseph 
+				Abbas Adam Amr Ayyub Dawud Dulaf Fadl Fath Hadi Aaron Hisham Ibrahim Idris Ilyas Isa Ishaq Ismail Jibrail Khalid Luqman Lut Marwan Maslama Muawiya Nuh
+				Qasim Said Yazid Yunus Yusuf 
 			}
 			1610 = {
 				Aban Adi Ala Amin Anas Aqil As Asad Ashhab Asif Asim Aslam Ata Aws Badr Bahr Bakkar Bakr Balj Bashir Bilal Bishr Bukayr Fajr Faraj Furat Futays Ghalib
-				Ghazi Habib Hafs Hakam Hamdan Hamid Hamza Harith Harmala Hashim Haytham Hayyan Hazm Hilal Himas Hubab Hubaysh Huda Hunayn Joachim Isaiah Jabir Jahhaf
+				Ghazi Habib Hafs Hakam Hamdan Hamid Hamza Harith Harmala Hashim Haytham Hayyan Hazm Hilal Himas Hubab Hubaysh Huda Hunayn Imran Ishaya Jabir Jahhaf
 				Jahl Jalil Jamal Jami Jamil Jubayr Juda Kamil Khalaf Khaldun Khalil Khattab Khayr Layth Maad Maan Mabad Mahbub Mahdi Malik Mansur Masud Matar Maymun
 				Mihran Miqdam Mirdas Mubarak Mudar Mujahid Mulahhab Muntasir Musab Mustafa Muti Nabit Nafi Naim Najih Najm Nasir Nasr Nazir Numan Nusayr Qabisa Qaim
 				Qatada Qays Qurra Qutayba Rabi Rabia Rashid Rawwad Ridwan Ruh Rushd Sabah Sad Sadiq Sadun Sahl Sahnun Salama Salih Salim Salman Shadhan Sharaf Sharif
-				Shariq Shayban Shuja Shumayl Sinan Sufyan Solomon Tahir Talha Tamim Tammam Tarif Tariq Tayyib Ubayda Ubayy Ulaym Umayr Umayya Uqba Urayb Usama Utba
-				Uways Wadi Wahb Wahid Walid Wasim Yala Yamut Jacob Yasir Zachariah Zayd Zayn Ziyad Zubayr Zuhayr
+				Shariq Shayban Shuja Shumayl Sinan Sufyan Sulayman Tahir Talha Tamim Tammam Tarif Tariq Tayyib Ubayda Ubayy Ulaym Umayr Umayya Uqba Urayb Usama Utba
+				Uways Wadi Wahb Wahid Walid Wasim Yala Yamut Yaqub Yasir Zakariya Zayd Zayn Ziyad Zubayr Zuhayr
 			}
 			145 = {
 				Abbad Abid Adil Affan Aghlab Awn Aziz Barakat Buhayr Buwayh Fahr Ghassan Hajjaj Haris Jarir Kumayl Mahmud Mundhir Muttalib Nizar Razin Sattar Shabib
-				Subh Sulaym Thabit Ubayd Peter Michael
+				Subh Sulaym Thabit Ubayd Butrus Mikhail
 			}
 			8 = {
-				Afrasiab Bahram Dinar Shajar Waki Samuel Simon Constantine
+				Afrasiyab Bahram Dinar Shajar Waki Samuil Siman Qustantin
 			}
 		}
 		female_names = {
@@ -536,27 +536,27 @@
 				Muhammad
 			}
 			180 = {
-				Ahmad Ali Hasan Husayn Jafar Moses Umar Uthman John
+				Ahmad Ali Hasan Husayn Jafar Musa Umar Uthman Yahya
 			}
 			450 = {
-				Abbas Adam Amr Job David Dulaf Fadl Fath Hadi Aaron Hisham Abraham Enoch Elijah Jesus Isaac Ismail Gabriel Khalid Luqman Lut Marwan Maslama Muawiya Noah
-				Qasim Said Yazid Jonas Joseph 
+				Abbas Adam Amr Ayyub Dawud Dulaf Fadl Fath Hadi Aaron Hisham Ibrahim Idris Ilyas Isa Ishaq Ismail Jibrail Khalid Luqman Lut Marwan Maslama Muawiya Nuh
+				Qasim Said Yazid Yunus Yusuf 
 			}
 			1610 = {
 				Aban Adi Ala Amin Anas Aqil As Asad Ashhab Asif Asim Aslam Ata Aws Badr Bahr Bakkar Bakr Balj Bashir Bilal Bishr Bukayr Fajr Faraj Furat Futays Ghalib
-				Ghazi Habib Hafs Hakam Hamdan Hamid Hamza Harith Harmala Hashim Haytham Hayyan Hazm Hilal Himas Hubab Hubaysh Huda Hunayn Joachim Isaiah Jabir Jahhaf
+				Ghazi Habib Hafs Hakam Hamdan Hamid Hamza Harith Harmala Hashim Haytham Hayyan Hazm Hilal Himas Hubab Hubaysh Huda Hunayn Imran Ishaya Jabir Jahhaf
 				Jahl Jalil Jamal Jami Jamil Jubayr Juda Kamil Khalaf Khaldun Khalil Khattab Khayr Layth Maad Maan Mabad Mahbub Mahdi Malik Mansur Masud Matar Maymun
 				Mihran Miqdam Mirdas Mubarak Mudar Mujahid Mulahhab Muntasir Musab Mustafa Muti Nabit Nafi Naim Najih Najm Nasir Nasr Nazir Numan Nusayr Qabisa Qaim
 				Qatada Qays Qurra Qutayba Rabi Rabia Rashid Rawwad Ridwan Ruh Rushd Sabah Sad Sadiq Sadun Sahl Sahnun Salama Salih Salim Salman Shadhan Sharaf Sharif
-				Shariq Shayban Shuja Shumayl Sinan Sufyan Solomon Tahir Talha Tamim Tammam Tarif Tariq Tayyib Ubayda Ubayy Ulaym Umayr Umayya Uqba Urayb Usama Utba
-				Uways Wadi Wahb Wahid Walid Wasim Yala Yamut Jacob Yasir Zachariah Zayd Zayn Ziyad Zubayr Zuhayr
+				Shariq Shayban Shuja Shumayl Sinan Sufyan Sulayman Tahir Talha Tamim Tammam Tarif Tariq Tayyib Ubayda Ubayy Ulaym Umayr Umayya Uqba Urayb Usama Utba
+				Uways Wadi Wahb Wahid Walid Wasim Yala Yamut Yaqub Yasir Zakariya Zayd Zayn Ziyad Zubayr Zuhayr
 			}
 			145 = {
 				Abbad Abid Adil Affan Aghlab Awn Aziz Barakat Buhayr Buwayh Fahr Ghassan Hajjaj Haris Jarir Kumayl Mahmud Mundhir Muttalib Nizar Razin Sattar Shabib
-				Subh Sulaym Thabit Ubayd Peter Michael
+				Subh Sulaym Thabit Ubayd Butrus Mikhail
 			}
 			7 = {
-				Afrasiab Bahram Dinar Shajar Waki Samuel Simon
+				Afrasiyab Bahram Dinar Shajar Waki Samuil Siman
 			}
 		}
 		female_names = {
@@ -904,28 +904,28 @@
 				Muhammad
 			}
 			36 = {
-				Ahmad Ali Hasan Husayn Jafar Moses Umar Uthman John
+				Ahmad Ali Hasan Husayn Jafar Musa Umar Uthman Yahya
 			}
 			90 = {
-				Abbas Adam Amr Job David Dulaf Fadl Fath Hadi Aaron Hisham Abraham Enoch Elijah Jesus Isaac Ismail Gabriel Khalid Luqman Lut Marwan Maslama Muawiya Noah
-				Qasim Said Yazid Jonas Joseph 
+				Abbas Adam Amr Ayyub Dawud Dulaf Fadl Fath Hadi Aaron Hisham Ibrahim Idris Ilyas Isa Ishaq Ismail Jibrail Khalid Luqman Lut Marwan Maslama Muawiya Nuh
+				Qasim Said Yazid Yunus Yusuf 
 			}
 			322 = {
 				Aban Adi Ala Amin Anas Aqil As Asad Ashhab Asif Asim Aslam Ata Aws Badr Bahr Bakkar Bakr Balj Bashir Bilal Bishr Bukayr Fajr Faraj Furat Futays Ghalib
-				Ghazi Habib Hafs Hakam Hamdan Hamid Hamza Harith Harmala Hashim Haytham Hayyan Hazm Hilal Himas Hubab Hubaysh Huda Hunayn Joachim Isaiah Jabir Jahhaf
+				Ghazi Habib Hafs Hakam Hamdan Hamid Hamza Harith Harmala Hashim Haytham Hayyan Hazm Hilal Himas Hubab Hubaysh Huda Hunayn Imran Ishaya Jabir Jahhaf
 				Jahl Jalil Jamal Jami Jamil Jubayr Juda Kamil Khalaf Khaldun Khalil Khattab Khayr Layth Maad Maan Mabad Mahbub Mahdi Malik Mansur Masud Matar Maymun
 				Mihran Miqdam Mirdas Mubarak Mudar Mujahid Mulahhab Muntasir Musab Mustafa Muti Nabit Nafi Naim Najih Najm Nasir Nasr Nazir Numan Nusayr Qabisa Qaim
 				Qatada Qays Qurra Qutayba Rabi Rabia Rashid Rawwad Ridwan Ruh Rushd Sabah Sad Sadiq Sadun Sahl Sahnun Salama Salih Salim Salman Shadhan Sharaf Sharif
-				Shariq Shayban Shuja Shumayl Sinan Sufyan Solomon Tahir Talha Tamim Tammam Tarif Tariq Tayyib Ubayda Ubayy Ulaym Umayr Umayya Uqba Urayb Usama Utba
-				Uways Wadi Wahb Wahid Walid Wasim Yala Yamut Jacob Yasir Zachariah Zayd Zayn Ziyad Zubayr Zuhayr
+				Shariq Shayban Shuja Shumayl Sinan Sufyan Sulayman Tahir Talha Tamim Tammam Tarif Tariq Tayyib Ubayda Ubayy Ulaym Umayr Umayya Uqba Urayb Usama Utba
+				Uways Wadi Wahb Wahid Walid Wasim Yala Yamut Yaqub Yasir Zakariya Zayd Zayn Ziyad Zubayr Zuhayr
 			}
 			28 = {
 				Abbad Abid Adil Affan Aghlab Awn Aziz Barakat Buhayr Buwayh Fahr Ghassan Hajjaj Haris Jarir Kumayl Mahmud Mundhir Muttalib Nizar Razin Sattar Shabib
-				Subh Sulaym Thabit Ubayd Lupus
+				Subh Sulaym Thabit Ubayd Lubb
 			}
 			5 = {
-				Afrasiab Bahram Dinar Shajar Waki Alfonse Ordono Ermengol Velasco Vermudo Pascal Peter Ferdinand Fortun Froila Galindo Garcia Henry James Michael Charles
-				Ramiro Sancho Enneco
+				Afrasiyab Bahram Dinar Shajar Waki Alfons Ardun Armaqand Balashk Barmand Bashkwal Butra Faranda Furtun Furwila Galind Garsiyya Inriq Khayma Mighil Qarla
+				Rudmir Shanjul Wannaqo
 			}
 		}
 		female_names = {
@@ -1128,27 +1128,27 @@
 				Muhammad
 			}
 			36 = {
-				Ahmad Ali Hasan Husayn Jafar Moses Umar Uthman John
+				Ahmad Ali Hasan Husayn Jafar Musa Umar Uthman Yahya
 			}
 			90 = {
-				Abbas Adam Amr Job David Dulaf Fadl Fath Hadi Aaron Hisham Abraham Enoch Elijah Jesus Isaac Ismail Gabriel Khalid Luqman Lut Marwan Maslama Muawiya Noah
-				Qasim Said Yazid Jonas Joseph 
+				Abbas Adam Amr Ayyub Dawud Dulaf Fadl Fath Hadi Aaron Hisham Ibrahim Idris Ilyas Isa Ishaq Ismail Jibrail Khalid Luqman Lut Marwan Maslama Muawiya Nuh
+				Qasim Said Yazid Yunus Yusuf 
 			}
 			322 = {
 				Aban Adi Ala Amin Anas Aqil As Asad Ashhab Asif Asim Aslam Ata Aws Badr Bahr Bakkar Bakr Balj Bashir Bilal Bishr Bukayr Fajr Faraj Furat Futays Ghalib
-				Ghazi Habib Hafs Hakam Hamdan Hamid Hamza Harith Harmala Hashim Haytham Hayyan Hazm Hilal Himas Hubab Hubaysh Huda Hunayn Joachim Isaiah Jabir Jahhaf
+				Ghazi Habib Hafs Hakam Hamdan Hamid Hamza Harith Harmala Hashim Haytham Hayyan Hazm Hilal Himas Hubab Hubaysh Huda Hunayn Imran Ishaya Jabir Jahhaf
 				Jahl Jalil Jamal Jami Jamil Jubayr Juda Kamil Khalaf Khaldun Khalil Khattab Khayr Layth Maad Maan Mabad Mahbub Mahdi Malik Mansur Masud Matar Maymun
 				Mihran Miqdam Mirdas Mubarak Mudar Mujahid Mulahhab Muntasir Musab Mustafa Muti Nabit Nafi Naim Najih Najm Nasir Nasr Nazir Numan Nusayr Qabisa Qaim
 				Qatada Qays Qurra Qutayba Rabi Rabia Rashid Rawwad Ridwan Ruh Rushd Sabah Sad Sadiq Sadun Sahl Sahnun Salama Salih Salim Salman Shadhan Sharaf Sharif
-				Shariq Shayban Shuja Shumayl Sinan Sufyan Solomon Tahir Talha Tamim Tammam Tarif Tariq Tayyib Ubayda Ubayy Ulaym Umayr Umayya Uqba Urayb Usama Utba
-				Uways Wadi Wahb Wahid Walid Wasim Yala Yamut Jacob Yasir Zachariah Zayd Zayn Ziyad Zubayr Zuhayr
+				Shariq Shayban Shuja Shumayl Sinan Sufyan Sulayman Tahir Talha Tamim Tammam Tarif Tariq Tayyib Ubayda Ubayy Ulaym Umayr Umayya Uqba Urayb Usama Utba
+				Uways Wadi Wahb Wahid Walid Wasim Yala Yamut Yaqub Yasir Zakariya Zayd Zayn Ziyad Zubayr Zuhayr
 			}
 			27 = {
 				Abbad Abid Adil Affan Aghlab Awn Aziz Barakat Buhayr Buwayh Fahr Ghassan Hajjaj Haris Jarir Kumayl Mahmud Mundhir Muttalib Nizar Razin Sattar Shabib
 				Subh Sulaym Thabit Ubayd
 			}
 			1 = {
-				Afrasiab Bahram Dinar Shajar Waki 
+				Afrasiyab Bahram Dinar Shajar Waki 
 			}
 		}
 		female_names = {
