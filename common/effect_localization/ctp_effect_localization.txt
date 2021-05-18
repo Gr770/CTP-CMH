@@ -123,3 +123,8 @@ scripted_gui_trigger_laqab_help_god = {
 	third = scripted_gui_laqab_help_god
 	global = scripted_gui_laqab_help_god
 }
+scripted_gui_trigger_laqab_righteousness_faith = {
+	first = scripted_gui_laqab_righteousness_faith
+	third = scripted_gui_laqab_righteousness_faith
+	global = scripted_gui_laqab_righteousness_faith
+}

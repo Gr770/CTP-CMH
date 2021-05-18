@@ -132,6 +132,26 @@ ctpname.003 = {
 	type = none
 	hidden = yes
 	trigger = {
+		year = 1184
+		KoH_loaded_checker = yes
+	}
+	immediate = {
+		add_to_global_variable_list = { name = laqab_righteousness_faith target = character:226000 }
+		character:226000 = {
+			change_first_name = Yusuf
+			add_character_flag = had_eldest_son
+			give_nickname = nick_of_nasir
+			set_variable = { name = var_dad_eldest_son value = character:226051 }
+		}
+		character:226053 = {
+			change_first_name = Eyyub
+		}
+	}
+}
+ctpname.004 = {
+	type = none
+	hidden = yes
+	trigger = {
 		year = 1066
 	}
 	immediate = {

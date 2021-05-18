@@ -25,5 +25,6 @@ on_arabic_death = {
 on_game_start = {
 	events = {
 		ctpname.002
+		ctpname.003
 	}
 }

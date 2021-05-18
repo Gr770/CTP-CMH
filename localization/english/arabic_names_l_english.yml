@@ -84,6 +84,12 @@
  al-Adil_arabic_pat_dad_male: "ibn al-ʿĀdil"
  al-Adil_arabic_pat_dad_female: "bint al-ʿĀdil"
 
+ Al-Afdal_arabic: "al-ʿAfdāl"
+ Al-Afdal_arabic_tek_mom: "ʾUmm al-ʿAfdāl"
+ Al-Afdal_arabic_tek_dad: "ʾAbū l-ʿAfdāl"
+ Al-Afdal_arabic_pat_dad_male: "ibn al-ʿAfdāl"
+ Al-Afdal_arabic_pat_dad_female: "bint al-ʿAfdāl"
+
  Affan_arabic: "ʿAffān"
  Affan_arabic_tek_mom: "ʾUmm ʿAffān"
  Affan_arabic_tek_dad: "ʾAbū ʿAffān"
@@ -256,6 +262,11 @@
  Ayyub_arabic_tek_dad: "ʾAbū ʾAyyūb"
  Ayyub_arabic_pat_dad_male: "ibn ʾAyyūb"
  Ayyub_arabic_pat_dad_female: "bint ʾAyyūb"
+ Eyyub_arabic: "ʾAyyūb"
+ Eyyub_arabic_tek_mom: "ʾUmm ʾAyyūb"
+ Eyyub_arabic_tek_dad: "ʾAbū ʾAyyūb"
+ Eyyub_arabic_pat_dad_male: "ibn ʾAyyūb"
+ Eyyub_arabic_pat_dad_female: "bint ʾAyyūb"
 
  Aziz_arabic: "ʿAzīz"
  Aziz_arabic_tek_mom: "ʾUmm ʿAzīz"

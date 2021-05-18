@@ -249,6 +249,11 @@ scripted_gui_ctp_laqab = {
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_help_god_scope
 				}
+				every_in_global_list = {
+					variable = laqab_righteousness_faith
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_righteousness_faith_scope
+				}
 			}
 		}
 		IF = {
@@ -461,6 +466,16 @@ scripted_gui_ctp_laqab = {
 				object = scope:effect_root
 			}
 		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_righteousness_faith_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_righteousness_faith
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
 		else = {
 			custom_description_no_bullet = {
 				text = ctp_blank_trigger_kunya
@@ -580,6 +595,11 @@ scripted_gui_ctp_laqab_tek_name_check = {
 					variable = laqab_help_god
 					limit = { scope:effect_root = THIS }
 					save_scope_as = laqab_help_god_scope
+				}
+				every_in_global_list = {
+					variable = laqab_righteousness_faith
+					limit = { scope:effect_root = THIS }
+					save_scope_as = laqab_righteousness_faith_scope
 				}
 			}
 			IF = {
@@ -870,6 +890,16 @@ scripted_gui_ctp_laqab_tek_name_check = {
 			}
 			custom_description_no_bullet = {
 				text = scripted_gui_trigger_laqab_help_god
+				subject = scope:effect_root
+				object = scope:effect_root
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:laqab_righteousness_faith_scope
+			}
+			custom_description_no_bullet = {
+				text = scripted_gui_trigger_laqab_righteousness_faith
 				subject = scope:effect_root
 				object = scope:effect_root
 			}

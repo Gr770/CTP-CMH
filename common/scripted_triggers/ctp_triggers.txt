@@ -80,3 +80,8 @@ is_palatine = {
 		}
 	}
 }
+
+KoH_loaded_checker = { 
+    trigger_if = { KoH_is_loaded = yes }
+    trigger_else = { always = no }
+ }
