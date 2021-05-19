@@ -11,6 +11,19 @@
 		localization_key = CTP_Full_Name_Default
 	}
 }
+CTPFullNameConcept = {
+	type = character
+	text = {
+		trigger = {
+			has_culture_group = culture_group:arabic_group
+		}
+		localization_key = CTP_Full_Name_Concept_Arabic
+	}
+	text = {
+		fallback = yes
+		localization_key = CTP_Full_Name_Default
+	}
+}
 CTPName = {
     type = character
     text = {
