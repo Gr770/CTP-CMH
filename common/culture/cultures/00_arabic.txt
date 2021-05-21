@@ -218,8 +218,8 @@
 			216 = {
 				Abbasa Abla Afiya Amina Asma Atika Aziza Daniya Dima Durr Fahra Fannu Dinar Fajr Ghada Ghaliba Ghaniya Habiba Hafsa Hagar Halima Hamda Hamida Hanifa
 				Hassana Hawra Hayal Hubaba Huda Hushayma Ibtisam Inan Ishraq Jalida Jalila Jamila Jawhara Jawra Jumana Kanza Karima Khawla Kinda Lubaba Maha Mahbuba
-				Mahuna Mamara Mashuq Maymuna Maysun Muhja Mulayka Mumina Muna Muta Muzahima Muzna Nafisa Naima Najat Najiya Najma Nasiba Nasira Nazhun Nuwayra Qamar
-				Qasima Qasmuna Rabia Radiya Rafiqa Rebecca Rachel Rashida Rasis Rubab Rayhana Ruhayma Rumayla Saada Sada Sakan Salwa Sama Samra Shams Shan Shariya Shifa
+				Mahjuna Mamara Mashuq Maymuna Maysun Muhja Mulayka Mumina Muna Muta Muzahima Muzna Nafisa Naima Najat Najiya Najma Nasiba Nasira Nazhun Nuwayra Qamar
+				Qasima Qasmuna Rabia Radiya Rafiqa Rafqa Rahil Rashida Rasis Rubab Rayhana Ruhayma Rumayla Saada Sada Sakan Salwa Sama Samra Shams Shan Shariya Shifa
 				Suad Sukayna Sura Tahira Tarifa Thuwayba Ubayda Ulayya Usayma Utayyqa Wahida Wallada Yamina Zahida Zahira Zahra Zunayra
 			}
 			22 = {
@@ -437,8 +437,8 @@
 			216 = {
 				Abbasa Abla Afiya Amina Asma Atika Aziza Daniya Dima Durr Fahra Fannu Dinar Fajr Ghada Ghaliba Ghaniya Habiba Hafsa Hagar Halima Hamda Hamida Hanifa
 				Hassana Hawra Hayal Hubaba Huda Hushayma Ibtisam Inan Ishraq Jalida Jalila Jamila Jawhara Jawra Jumana Kanza Karima Khawla Kinda Lubaba Maha Mahbuba
-				Mahuna Mamara Mashuq Maymuna Maysun Muhja Mulayka Mumina Muna Muta Muzahima Muzna Nafisa Naima Najat Najiya Najma Nasiba Nasira Nazhun Nuwayra Qamar
-				Qasima Qasmuna Rabia Radiya Rafiqa Rebecca Rachel Rashida Rasis Rubab Rayhana Ruhayma Rumayla Saada Sada Sakan Salwa Sama Samra Shams Shan Shariya Shifa
+				Mahjuna Mamara Mashuq Maymuna Maysun Muhja Mulayka Mumina Muna Muta Muzahima Muzna Nafisa Naima Najat Najiya Najma Nasiba Nasira Nazhun Nuwayra Qamar
+				Qasima Qasmuna Rabia Radiya Rafiqa Rafqa Rahil Rashida Rasis Rubab Rayhana Ruhayma Rumayla Saada Sada Sakan Salwa Sama Samra Shams Shan Shariya Shifa
 				Suad Sukayna Sura Tahira Tarifa Thuwayba Ubayda Ulayya Usayma Utayyqa Wahida Wallada Yamina Zahida Zahira Zahra Zunayra
 			}
 			22 = {
@@ -569,8 +569,8 @@
 			216 = {
 				Abbasa Abla Afiya Amina Asma Atika Aziza Daniya Dima Durr Fahra Fannu Dinar Fajr Ghada Ghaliba Ghaniya Habiba Hafsa Hagar Halima Hamda Hamida Hanifa
 				Hassana Hawra Hayal Hubaba Huda Hushayma Ibtisam Inan Ishraq Jalida Jalila Jamila Jawhara Jawra Jumana Kanza Karima Khawla Kinda Lubaba Maha Mahbuba
-				Mahuna Mamara Mashuq Maymuna Maysun Muhja Mulayka Mumina Muna Muta Muzahima Muzna Nafisa Naima Najat Najiya Najma Nasiba Nasira Nazhun Nuwayra Qamar
-				Qasima Qasmuna Rabia Radiya Rafiqa Rebecca Rachel Rashida Rasis Rubab Rayhana Ruhayma Rumayla Saada Sada Sakan Salwa Sama Samra Shams Shan Shariya Shifa
+				Mahjuna Mamara Mashuq Maymuna Maysun Muhja Mulayka Mumina Muna Muta Muzahima Muzna Nafisa Naima Najat Najiya Najma Nasiba Nasira Nazhun Nuwayra Qamar
+				Qasima Qasmuna Rabia Radiya Rafiqa Rafqa Rahil Rashida Rasis Rubab Rayhana Ruhayma Rumayla Saada Sada Sakan Salwa Sama Samra Shams Shan Shariya Shifa
 				Suad Sukayna Sura Tahira Tarifa Thuwayba Ubayda Ulayya Usayma Utayyqa Wahida Wallada Yamina Zahida Zahira Zahra Zunayra
 			}
 			22 = {
@@ -810,8 +810,8 @@
 			216 = {
 				Abbasa Abla Afiya Amina Asma Atika Aziza Daniya Dima Durr Fahra Fannu Dinar Fajr Ghada Ghaliba Ghaniya Habiba Hafsa Hagar Halima Hamda Hamida Hanifa
 				Hassana Hawra Hayal Hubaba Huda Hushayma Ibtisam Inan Ishraq Jalida Jalila Jamila Jawhara Jawra Jumana Kanza Karima Khawla Kinda Lubaba Maha Mahbuba
-				Mahuna Mamara Mashuq Maymuna Maysun Muhja Mulayka Mumina Muna Muta Muzahima Muzna Nafisa Naima Najat Najiya Najma Nasiba Nasira Nazhun Nuwayra Qamar
-				Qasima Qasmuna Rabia Radiya Rafiqa Rebecca Rachel Rashida Rasis Rubab Rayhana Ruhayma Rumayla Saada Sada Sakan Salwa Sama Samra Shams Shan Shariya Shifa
+				Mahjuna Mamara Mashuq Maymuna Maysun Muhja Mulayka Mumina Muna Muta Muzahima Muzna Nafisa Naima Najat Najiya Najma Nasiba Nasira Nazhun Nuwayra Qamar
+				Qasima Qasmuna Rabia Radiya Rafiqa Rafqa Rahil Rashida Rasis Rubab Rayhana Ruhayma Rumayla Saada Sada Sakan Salwa Sama Samra Shams Shan Shariya Shifa
 				Suad Sukayna Sura Tahira Tarifa Thuwayba Ubayda Ulayya Usayma Utayyqa Wahida Wallada Yamina Zahida Zahira Zahra Zunayra
 			}
 			22 = {
@@ -972,8 +972,8 @@
 			1080 = {
 				Abbasa Abla Afiya Amina Asma Atika Aziza Daniya Dima Durr Fahra Fannu Dinar Fajr Ghada Ghaliba Ghaniya Habiba Hafsa Hagar Halima Hamda Hamida Hanifa
 				Hassana Hawra Hayal Hubaba Huda Hushayma Ibtisam Inan Ishraq Jalida Jalila Jamila Jawhara Jawra Jumana Kanza Karima Khawla Kinda Lubaba Maha Mahbuba
-				Mahuna Mamara Mashuq Maymuna Maysun Muhja Mulayka Mumina Muna Muta Muzahima Muzna Nafisa Naima Najat Najiya Najma Nasiba Nasira Nazhun Nuwayra Qamar
-				Qasima Qasmuna Rabia Radiya Rafiqa Rebecca Rachel Rashida Rasis Rubab Rayhana Ruhayma Rumayla Saada Sada Sakan Salwa Sama Samra Shams Shan Shariya Shifa
+				Mahjuna Mamara Mashuq Maymuna Maysun Muhja Mulayka Mumina Muna Muta Muzahima Muzna Nafisa Naima Najat Najiya Najma Nasiba Nasira Nazhun Nuwayra Qamar
+				Qasima Qasmuna Rabia Radiya Rafiqa Rafqa Rahil Rashida Rasis Rubab Rayhana Ruhayma Rumayla Saada Sada Sakan Salwa Sama Samra Shams Shan Shariya Shifa
 				Suad Sukayna Sura Tahira Tarifa Thuwayba Ubayda Ulayya Usayma Utayyqa Wahida Wallada Yamina Zahida Zahira Zahra Zunayra
 			}
 			115 = {
@@ -982,7 +982,7 @@
 			}
 			32 = {
 				Amsha Asmuna Ayshuna Baraka Fathuna Fatna Faynan Futayma Ghaya Idlal Itimad Judur Marjan Masabih Muzayna Narjis Num Nuzha Ray Saduna Sihr Tarub Umayna
-				Ward Yahaira Urraca Auria Isla Ghislain Munia Sarah Jimena
+				Ward Yahaira Awraka Auria Ayluh GhAyluhin Munia Sara Simana
 			}
 		}
 		dynasty_of_location_prefix = "dynnp_mn"
@@ -1195,8 +1195,8 @@
 			216 = {
 				Abbasa Abla Afiya Amina Asma Atika Aziza Daniya Dima Durr Fahra Fannu Dinar Fajr Ghada Ghaliba Ghaniya Habiba Hafsa Hagar Halima Hamda Hamida Hanifa
 				Hassana Hawra Hayal Hubaba Huda Hushayma Ibtisam Inan Ishraq Jalida Jalila Jamila Jawhara Jawra Jumana Kanza Karima Khawla Kinda Lubaba Maha Mahbuba
-				Mahuna Mamara Mashuq Maymuna Maysun Muhja Mulayka Mumina Muna Muta Muzahima Muzna Nafisa Naima Najat Najiya Najma Nasiba Nasira Nazhun Nuwayra Qamar
-				Qasima Qasmuna Rabia Radiya Rafiqa Rebecca Rachel Rashida Rasis Rubab Rayhana Ruhayma Rumayla Saada Sada Sakan Salwa Sama Samra Shams Shan Shariya Shifa
+				Mahjuna Mamara Mashuq Maymuna Maysun Muhja Mulayka Mumina Muna Muta Muzahima Muzna Nafisa Naima Najat Najiya Najma Nasiba Nasira Nazhun Nuwayra Qamar
+				Qasima Qasmuna Rabia Radiya Rafiqa Rafqa Rahil Rashida Rasis Rubab Rayhana Ruhayma Rumayla Saada Sada Sakan Salwa Sama Samra Shams Shan Shariya Shifa
 				Suad Sukayna Sura Tahira Tarifa Thuwayba Ubayda Ulayya Usayma Utayyqa Wahida Wallada Yamina Zahida Zahira Zahra Zunayra
 			}
 			23 = {
