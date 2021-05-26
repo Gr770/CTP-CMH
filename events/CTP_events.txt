@@ -137,14 +137,20 @@ ctpname.003 = {
 	}
 	immediate = {
 		add_to_global_variable_list = { name = laqab_righteousness_faith target = character:226000 }
+		add_to_global_variable_list = { name = laqab_purity_faith target = character:1000230506 }
 		character:226000 = {
 			change_first_name = Yusuf
 			add_character_flag = had_eldest_son
-			give_nickname = nick_of_nasir
 			set_variable = { name = var_dad_eldest_son value = character:226051 }
 		}
 		character:226053 = {
 			change_first_name = Eyyub
+		}
+		character:1000230506 = {
+			change_first_name = Asimat
+		}
+		character:226052 = {
+			change_first_name = Adil
 		}
 	}
 }
