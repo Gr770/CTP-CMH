@@ -86,5 +86,8 @@
  scripted_gui_laqab_righteousness_faith: "Ṣalāḥ ad-Dīn "
  scripted_gui_laqab_purity_faith: "ʿIṣmat ad-Dīn "
 
+ arabic_caliphate: "al-Khilāfā [Localize(Concatenate(ROOT.Title.GetHolder.GetHouse.GetNameNoTooltip,ROOT.Title.GetHolder.Custom('CharacterCulture')))]"
+ arabic_title_name_no_tooltip: "[ROOT.Title.GetTierAsNameNoTooltip] [Localize(Concatenate(ROOT.Title.GetBaseNameNoTierNoTooltip,ROOT.Title.GetHolder.Custom('CharacterCulture')))] [Localize(Concatenate(ROOT.Title.GetHolder.GetHouse.GetNameNoTooltip,ROOT.Title.GetHolder.Custom('CharacterCulture')))]"
+
  jerusalem_showcase: "Regnum Hierosolymitanum"
  title_fallback: "[ROOT.Title.GetNameNoTooltip]"
