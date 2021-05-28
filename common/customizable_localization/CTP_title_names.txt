@@ -1,0 +1,13 @@
+﻿CTPSimpleTitle = {
+    type = landed_title
+    text = {
+        trigger = {
+            this = title:k_jerusalem
+        }
+        localization_key = jerusalem_showcase
+    }
+    text = {
+        fallback = yes
+        localization_key = title_fallback
+    }
+}

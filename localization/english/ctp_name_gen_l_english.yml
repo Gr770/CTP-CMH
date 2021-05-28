@@ -85,3 +85,6 @@
  scripted_gui_laqab_help_god: "al-Mustaʿin bi-ʾllah "
  scripted_gui_laqab_righteousness_faith: "Ṣalāḥ ad-Dīn "
  scripted_gui_laqab_purity_faith: "ʿIṣmat ad-Dīn "
+
+ jerusalem_showcase: "Regnum Hierosolymitanum"
+ title_fallback: "[ROOT.Title.GetNameNoTooltip]"
